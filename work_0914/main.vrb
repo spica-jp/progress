@@ -1,0 +1,20 @@
+\frametitle{CNNによる学習}
+\begin{itemize}
+      \item 使用モデル\mbox{}\\
+        \begin{lstlisting}[caption=generate\_simple\_fnn.py]
+          model = keras.models.Sequential([
+            keras.layers.Conv2D(32, (3, 3), activation='relu', input_shape=input_shape),
+            keras.layers.MaxPooling2D((2, 2)),
+            keras.layers.Flatten(),
+            keras.layers.Dense(64, activation='relu'),
+            keras.layers.Dropout(dropout_ratio),
+            keras.layers.Dense(output_shape)
+          ])
+        \end{lstlisting}
+      \item ハイパーパラメータ\mbox{}\\
+      \begin{itemize}
+        \item optimizer='adam'
+        \item dropout\_ratio=0.0
+        \item epochs=10
+      \end{itemize}
+    \end{itemize}
