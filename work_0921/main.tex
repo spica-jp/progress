@@ -1,0 +1,81 @@
+\documentclass[dvipdfmx]{beamer}
+\usetheme{metropolis}           % Use metropolis theme
+\usepackage{float}
+\usepackage{listings,jvlisting} %日本語のコメントアウトをする場合jvlisting（もしくはjlisting）が必要
+%ここからソースコードの表示に関する設定
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
+
+\title{Progress}
+\date{\today}
+\author{Mizuno Yasuaki}
+%\institute{Centre for Modern Beamer Themes}
+\begin{document}
+  % 表紙の作成
+  \maketitle
+  
+  \begin{frame}{ファミリー数削減}
+    前回はファミリー数を百前後で学習を行って、テストデータの精度を表\ref{tab:accuracy}に示す。
+    ファミリー数を十に減らして、様々なニューラルネットワークのモデルを試す。
+    \begin{table}
+      \caption{accuracy}
+      \label{tab:accuracy}
+      \centering
+      \begin{tabular}{ll}
+        \hline
+        model & accuracy \\
+        \hline \hline
+        FNN & 0.2889 \\
+        CNN & 0.8783 \\
+        \hline
+      \end{tabular}
+    \end{table}
+  \end{frame}
+
+  \begin{frame}{削減データの概要}
+    ファミリー数を十に減らしたときの結果を表\ref{tab:less_data}に示す。
+
+    \begin{table}
+      \caption{less\_data}
+      \label{tab:less_data}
+      \centering
+      \begin{tabular}{ll}
+        \hline
+        data\_name & data\_size \\
+        \hline \hline
+        train\_data & 66704 \\
+        test\_data & 592 \\
+        \hline
+      \end{tabular}
+    \end{table}
+  \end{frame}
+
+  \begin{frame}{使用したニューラルネットワーク}
+
+  \end{frame}
+
+  \begin{frame}{削減データを用いた学習結果}
+    \begin{table}
+      
+    \end{table}
+  \end{frame}
+
+\end{document}
+
+
