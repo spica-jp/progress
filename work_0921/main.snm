@@ -1,2 +1,12 @@
-\beamer@slide {tab:accuracy}{2}
-\beamer@slide {tab:less_data}{3}
+\beamer@slide {tab:composition}{2}
+\beamer@slide {tab:train_result}{3}
+\beamer@slide {fig:Simple_FNN}{4}
+\beamer@slide {sub@fig:Simple_FNN}{4}
+\beamer@slide {fig:Simple_CNN}{4}
+\beamer@slide {sub@fig:Simple_CNN}{4}
+\beamer@slide {fig:bigger_composition}{6}
+\beamer@slide {tab:other_result}{7}
+\beamer@slide {fig:other_FNN}{8}
+\beamer@slide {sub@fig:other_FNN}{8}
+\beamer@slide {fig:other_CNN}{8}
+\beamer@slide {sub@fig:other_CNN}{8}
