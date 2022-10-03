@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.9.16)  20 SEP 2022 22:44
+This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.9.10)  20 SEP 2022 23:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,7 +7,7 @@ entering extended mode
 pLaTeX2e <2021-11-15u04> (based on LaTeX2e <2022-06-01> patch level 5)
 L3 programming layer <2022-08-30>
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
-Document Class: beamer 2022/09/13 v3.68 A class for typesetting presentations
+Document Class: beamer 2022/05/17 v3.67 A class for typesetting presentations
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
@@ -1228,10 +1228,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27826 strings out of 475526
- 561376 string characters out of 5790913
- 854418 words of memory out of 5000000
- 48901 multiletter control sequences out of 15000+600000
+ 27824 strings out of 475526
+ 561347 string characters out of 5790913
+ 854452 words of memory out of 5000000
+ 48899 multiletter control sequences out of 15000+600000
  488521 words of font info for 113 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  128i,13n,122p,1900b,902s stack positions out of 10000i,1000n,20000p,200000b,200000s
