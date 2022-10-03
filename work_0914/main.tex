@@ -1,4 +1,5 @@
-\documentclass[dvipdfmx]{beamer}
+\documentclass[uplatex, dvipdfmx]{beamer}
+\usepackage[uplatex]{otf}
 \usetheme{metropolis}           % Use metropolis theme
 \usepackage{float}
 \usepackage{listings,jvlisting} %日本語のコメントアウトをする場合jvlisting（もしくはjlisting）が必要
@@ -25,7 +26,7 @@
 \title{Progress}
 \date{\today}
 \author{Mizuno Yasuaki}
-%\institute{Centre for Modern Beamer Themes}
+%\institute{}
 \begin{document}
   \maketitle
   
@@ -83,7 +84,7 @@
     \begin{itemize}
       \item 使用データ
       \begin{itemize}
-        \item 訓練データ：30000
+        \item 訓練データ：20000
         \item テストデータ：6000
       \end{itemize}
       \item 使用したモデル
