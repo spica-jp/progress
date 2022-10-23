@@ -1,0 +1,94 @@
+\documentclass[dvipdfmx]{beamer}
+\usetheme{metropolis}           % Use metropolis theme
+\usepackage{float}
+\usepackage{ascmac}
+\usepackage{fancybox}
+\usepackage{tikz}
+\usetikzlibrary {arrows.meta}
+\usetikzlibrary {bending}
+\usepackage{listings,jvlisting} %日本語のコメントアウトをする場合jvlisting（もしくはjlisting）が必要
+%ここからソースコードの表示に関する設定
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
+
+\title{Progress}
+\date{\today}
+\author{Mizuno Yasuaki}
+%\institute{Centre for Modern Beamer Themes}
+\begin{document}
+  \maketitle
+
+  \begin{frame}{目次}
+    \begin{enumerate}
+      \item k分割交差検証
+    \end{enumerate}
+  \end{frame}
+  
+  \begin{frame}{k分割交差検証}
+    \begin{itemize}
+        \item 訓練データを同じサイズのk個のサブセットに分ける
+        \item (k - 1)個のサブセットで訓練し、残りのサブセットで評価する
+        \item 最終的にk個のスコアの平均
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}
+    \begin{figure}
+      \centering
+      \begin{tikzpicture}
+        % 一列目
+        \draw [fill=yellow, rounded corners=10pt] (0, 3)rectangle(2, 4) (1, 3.5)node{検証};
+        \draw [rounded corners=10pt] (2.5, 3)rectangle(4.5, 4) (3.5, 3.5)node{訓練};
+        \draw [rounded corners=10pt] (5, 3)rectangle(7, 4) (6, 3.5)node{訓練};
+        \draw [->] (7.5, 3.5)--(8, 3.5) node[right]{検証スコア①};
+        % 二列目
+        \draw [rounded corners=10pt] (0, 1.5)rectangle(2, 2.5) (1, 2)node{訓練};
+        \draw [fill=yellow, rounded corners=10pt] (2.5, 1.5)rectangle(4.5, 2.5) (3.5, 2)node{検証};
+        \draw [rounded corners=10pt] (5, 1.5)rectangle(7, 2.5) (6, 2)node{訓練};
+        \draw [->] (7.5, 2)--(8, 2) node[right]{検証スコア②};
+        % 三列目
+        \draw [rounded corners=10pt] (0, 0)rectangle(2, 1) (1, .5)node{訓練};
+        \draw [rounded corners=10pt] (2.5, 0)rectangle(4.5, 1) (3.5, .5)node{訓練};
+        \draw [fill=yellow, rounded corners=10pt] (5, 0)rectangle(7, 1) (6, .5)node{検証};
+        \draw [->] (7.5, .5)--(8, .5) node[right]{検証スコア③};
+      \end{tikzpicture}
+      \caption{３分割交差検証}
+    \end{figure}
+  \end{frame}
+
+  \begin{frame}{k分割交差検証結果}
+    \begin{table}[H]
+      \centering
+      \caption{４分割交差検証}
+      \begin{tabular}{lll}
+        \hline
+        i & loss & accuracy \\
+        \hline \hline
+        0 & \\
+        1 & \\
+        2 & \\
+        3 & \\
+        \hline
+      \end{tabular}
+    \end{table}
+  \end{frame}
+
+\end{document}
+
+
