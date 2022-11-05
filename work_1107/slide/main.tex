@@ -1,0 +1,75 @@
+\documentclass[dvipdfmx]{beamer}
+\usetheme[
+    block=fill, % ブロックに背景をつける
+    progressbar=foot, % 各スライドの下にプログレスバー
+    numbering=fraction % 合計ページ数を表示
+]{metropolis}           % Use metropolis theme
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{ascmac}
+\usepackage{fancybox}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\renewcommand{\kanjifamilydefault}{\gtdefault} % 和文デフォルトをゴシック体に
+\usepackage{tikz}
+\usetikzlibrary {arrows.meta}
+\usetikzlibrary {bending}
+\usepackage{listings,jvlisting} %日本語のコメントアウトをする場合jvlisting（もしくはjlisting）が必要
+%ここからソースコードの表示に関する設定
+\lstset{
+  basicstyle={\tiny},
+  stringstyle={tiny},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\tiny},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
+
+\title{進捗報告}
+\date{\today}
+\author{水野泰旭}
+\institute{弘前大学理工学部電子情報工学科４年}
+\subject{学習率による正解率向上}
+\begin{document}
+  \maketitle
+
+  \begin{frame}{目次}
+    \tableofcontents
+   \end{frame}
+  
+  \begin{frame}
+    \section{交差検証}
+  \end{frame}
+
+  \begin{frame}{手順}
+    \begin{enumerate}
+      \item 訓練データとテストデータを結合する
+      \item データをシャッフルする
+      \item 以下の操作をk回繰り返す
+      \begin{enumerate}
+        \item 訓練データとテストデータに分ける
+        \item モデルを作り学習する
+      \end{enumerate}
+      \item それぞれの学習で得られた正解率の平均を出力する
+    \end{enumerate}
+  \end{frame}
+
+  \begin{frame}[fragile]{ソースコード}
+    \begin{lstlisting}[caption=ksparate\_train.py]
+      k = 5
+      num_validation = len(images) // k
+      for fold in range(k):
+          # SEPARATE DATA
+          validation_images = images[num_validation * fold: num_validation * (fold + 1)]
+          validation_labels = labels[num_validation * fold: num_validation * (fold + 1)]
+          train_images = np.concatenate([images[:num_validation * k], images[num_validation * (k + 1):]], axis=0)
+          train_labels = np.concatenate([labels[:num_validation * k], labels[num_validation * (k + 1):]], axis=0)
+      \end{lstlisting}
+  \end{frame}
+\end{document}

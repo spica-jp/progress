@@ -1,0 +1,11 @@
+\frametitle{ソースコード}
+\begin{lstlisting}[caption=ksparate\_train.py]
+      k = 5
+      num_validation = len(images) // k
+      for fold in range(k):
+          # SEPARATE DATA
+          validation_images = images[num_validation * fold: num_validation * (fold + 1)]
+          validation_labels = labels[num_validation * fold: num_validation * (fold + 1)]
+          train_images = np.concatenate([images[:num_validation * k], images[num_validation * (k + 1):]], axis=0)
+          train_labels = np.concatenate([labels[:num_validation * k], labels[num_validation * (k + 1):]], axis=0)
+      \end{lstlisting}
