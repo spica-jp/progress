@@ -1,6 +1,6 @@
 \frametitle{ソースコード}
 \begin{lstlisting}[caption=ksparate\_train.py]
-      k = 5
+      k = 10
       num_validation = len(images) // k
       for fold in range(k):
           # SEPARATE DATA

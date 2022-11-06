@@ -1,1 +1,3 @@
-\beamer@sectionintoc {1}{交差検証}{3}{0}{1}
+\beamer@sectionintoc {1}{学習率の性能比較}{3}{0}{1}
+\beamer@sectionintoc {2}{optimizerによる性能比較}{5}{0}{2}
+\beamer@sectionintoc {3}{k分割交差検証}{8}{0}{3}
