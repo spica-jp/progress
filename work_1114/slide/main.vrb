@@ -1,0 +1,14 @@
+\frametitle{コードの修正}
+\begin{lstlisting}[language=Python, caption=kseparate\_train.py, label=cd:keseparate_train.py]
+      k = 10
+      n = len(images) // k
+      label_size = len(set(labels))
+      validation_scores = []
+      for fold in range(k):
+        print("The fold is :", fold)
+        # SEPARATE TRAIN DATA
+        validation_images = images[n * fold: n * (fold + 1)]
+        validation_labels = labels[n * fold: n * (fold + 1)]
+        train_images = np.concatenate([images[:n * fold], images[n * (fold + 1):]])
+        train_labels = np.concatenate([labels[:n * fold], labels[n * (fold + 1):]])
+      \end{lstlisting}
