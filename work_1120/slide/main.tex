@@ -1,0 +1,96 @@
+\documentclass[leno,xcolor=dvipsnames]{beamer}
+\usetheme[
+    block=fill,         % ブロックに背景をつける
+    progressbar=foot,   % 各スライドの下にプログレスバー
+    numbering=fraction  % 合計ページ数を表示
+]{metropolis}           % Use metropolis theme
+
+\usepackage{luatexja}% 日本語したい
+\usepackage[ipaex]{luatexja-preset}% IPAexフォントしたい
+\renewcommand{\kanjifamilydefault}{\gtdefault}% 既定をゴシック体に
+
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{ascmac}
+\usepackage{fancybox}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{siunitx}
+\usepackage{tikz}
+\usetikzlibrary {arrows.meta}
+\usetikzlibrary {bending}
+\usepackage{listings}
+\lstset{
+    frame=single,
+    basicstyle=\tiny\ttfamily,
+    tabsize=4
+}
+
+\title{進捗報告}
+\date{\today}
+\author{水野泰旭}
+\institute{弘前大学理工学部電子情報工学科４年}
+\subject{}
+\begin{document}
+  \maketitle
+  
+\begin{frame}{目次}
+    \tableofcontents
+\end{frame}
+
+\begin{frame}
+    \section{画像作成時のコード修正}
+\end{frame}
+
+\begin{frame}{画像作成時のコード修正}
+    \begin{itemize}
+        \item 今まで\mbox{} \\ 画像を作成し、numpy配列に画素値を格納して、pklファイルに保存。pklファイルを読み込み、学習する。
+        \item 修正後\mbox{} \\ 画像を作成し、サブサブファミリーごとにディレクトリを分けて保存。画像を読み込んで、学習する。\footnote{プロットした座標はjsonファイルで保存}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \section{k分割交差検証（比率を考慮）}
+\end{frame}
+
+\begin{frame}{手順}
+    \begin{enumerate}
+        \item クラスごとに画像データとラベルをそれぞれ分ける
+        \item クラスごとに画像データとラベルをk個に分ける
+        \item 以下の操作をk回繰り返す
+        \begin{enumerate}
+            \item それぞれのクラスにおいてk個に分けた画像データとラベルデータを検証データ用に一つ選ぶ
+            \item 検証データ以外を訓練データとしてまとめる
+            \item 機械学習を行う
+        \end{enumerate} 
+        \item すべての学習終了後、ロスと正解率の平均を計算する
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{10分割交差検証}
+    \begin{table}[H]
+        \centering  
+        \begin{tabular}{rSS}
+            \toprule    
+            & ロス & 正解率 \\
+            \midrule
+            1回目 & 0.1895 & 0.9520 \\ 
+            2回目 & 0.1073 & 0.9734 \\ 
+            3回目 & 0.1510 & 0.9621 \\ 
+            4回目 & 0.1698 & 0.9633 \\ 
+            5回目 & 0.1287 & 0.9570 \\ 
+            6回目 & 0.1278 & 0.9621 \\
+            7回目 & 0.1953 & 0.9621 \\
+            8回目 & 0.2565 & 0.9381 \\
+            9回目 & 0.1493 & 0.9608 \\
+            10回目 & 0.1506 & 0.9671 \\
+            \midrule
+            平均 & 0.1626 & 0.9597 \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
+\end{frame}
+
+\end{document}
+
+
