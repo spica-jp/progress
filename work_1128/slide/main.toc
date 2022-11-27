@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{10分割交差検証}{3}{0}{1}
+\beamer@sectionintoc {2}{ヒートマップの作成}{6}{0}{2}

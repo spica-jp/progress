@@ -1,0 +1,13 @@
+\frametitle{シャッフルの方法変更}
+\begin{lstlisting}[caption=シードを用いたシャッフル]
+      np.random.seed(1)
+      np.random.shuffle(images)
+      np.random.seed(1)
+      np.random.shuffle(labels)
+    \end{lstlisting}
+
+    \begin{lstlisting}[caption=numpy.random.permutationを用いたシャッフル]
+      p = np.random.permutation(len(images))
+      images = images[p]
+      labels = labels[p]
+    \end{lstlisting}
