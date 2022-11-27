@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.10)  13 NOV 2022 20:34
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.10)  14 NOV 2022 13:16
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1592,11 +1592,7 @@ LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 34.
 LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 34.
- (./main.aux
-
-LaTeX Warning: Label `fig:heatmap' multiply defined.
-
-)
+ (./main.aux)
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -1911,45 +1907,56 @@ Overfull \vbox (6.99124pt too high) detected at line 84
 
 ] [6
 
+] [7
+
 ]
-<images/deep_conv.pdf, id=72, 462.528pt x 346.896pt>
+<images/deep_conv.pdf, id=78, 462.528pt x 346.896pt>
 File: images/deep_conv.pdf Graphic file (type pdf)
 <use images/deep_conv.pdf>
-Package luatex.def Info: images/deep_conv.pdf  used on input line 96.
+Package luatex.def Info: images/deep_conv.pdf  used on input line 102.
 (luatex.def)             Requested size: 231.26343pt x 173.44757pt.
- [7
+ [8
 
 <./images/deep_conv.pdf>]
-<images/deep_conv_heatmap.pdf, id=113, 462.528pt x 346.896pt>
+<images/deep_conv_heatmap.pdf, id=119, 462.528pt x 346.896pt>
 File: images/deep_conv_heatmap.pdf Graphic file (type pdf)
 <use images/deep_conv_heatmap.pdf>
-Package luatex.def Info: images/deep_conv_heatmap.pdf  used on input line 104.
+Package luatex.def Info: images/deep_conv_heatmap.pdf  used on input line 110.
 (luatex.def)             Requested size: 277.51894pt x 208.13919pt.
+LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 110.
+LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 110.
+LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 110.
+LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 110.
+LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 110.
 
-Overfull \vbox (9.97995pt too high) detected at line 104
- []
-
-[8
-
-<./images/deep_conv_heatmap.pdf>]
-<images/deep_conv_cnt_heatmap.pdf, id=142, 462.528pt x 346.896pt>
-File: images/deep_conv_cnt_heatmap.pdf Graphic file (type pdf)
-<use images/deep_conv_cnt_heatmap.pdf>
-Package luatex.def Info: images/deep_conv_cnt_heatmap.pdf  used on input line 1
-12.
-(luatex.def)             Requested size: 277.51894pt x 208.13919pt.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:heatma
-p'
-
-Overfull \vbox (9.97995pt too high) detected at line 112
+Overfull \vbox (17.79324pt too high) detected at line 110
  []
 
 [9
 
-<./images/deep_conv_cnt_heatmap.pdf>] [10
+<./images/deep_conv_heatmap.pdf>]
+<images/deep_conv_cnt_heatmap.pdf, id=148, 462.528pt x 346.896pt>
+File: images/deep_conv_cnt_heatmap.pdf Graphic file (type pdf)
+<use images/deep_conv_cnt_heatmap.pdf>
+Package luatex.def Info: images/deep_conv_cnt_heatmap.pdf  used on input line 1
+18.
+(luatex.def)             Requested size: 277.51894pt x 208.13919pt.
 
-] [11
+Overfull \vbox (17.85924pt too high) detected at line 118
+ []
+
+[10
+
+<./images/deep_conv_cnt_heatmap.pdf>] [11
+
+] [12
+
+] [13
 
 ]
 \tf@nav=\write8
@@ -1962,24 +1969,21 @@ Overfull \vbox (9.97995pt too high) detected at line 112
 
 \openout10 = main.snm
  (./main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 14C85F09952FBFE663E435532B1114BD;238.
+(rerunfilecheck)             Checksum: F03EC4DE31159AD1B3071E4B24F6DE83;294.
 )
 
 Here is how much of LuaTeX's memory you used:
- 34457 strings out of 477356
- 305280,1373583 words of node,token memory allocated
+ 34513 strings out of 477356
+ 305277,1373583 words of node,token memory allocated
  20519 words of node memory still in use:
    37 hlist, 8 vlist, 75 rule, 4 local_par, 125 glue, 12 kern, 31 penalty, 82 gl
 yph, 8127 attribute, 71 glue_spec, 415 attribute_list, 4 write, 44 user_defined,
  30 pdf_colorstack nodes
-   avail lists: 1:45,2:83884,3:182,4:4352,5:586,6:44,7:3463,8:15,9:4516,10:25,11
+   avail lists: 1:49,2:83884,3:187,4:4352,5:588,6:44,7:3463,8:14,9:4516,10:29,11
 :15
- 53811 multiletter control sequences out of 65536+600000
- 99 fonts using 66862551 bytes
+ 53862 multiletter control sequences out of 65536+600000
+ 126 fonts using 78312935 bytes
  128i,14n,131p,1895b,1066s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraMono-Oblique.
 otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraMono-Medi
@@ -1987,11 +1991,12 @@ um.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraMono-R
 egular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSa
 ns-Regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/Fi
 raSans-Light.otf></usr/local/texlive/2022/texmf-dist/fonts/truetype/public/ipaex
-/ipaexg.ttf>
-Output written on main.pdf (11 pages, 222736 bytes).
+/ipaexg.ttf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb>
+Output written on main.pdf (13 pages, 242125 bytes).
 
-PDF statistics: 222 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 131072)
+PDF statistics: 239 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 131072)
  40 words of extra memory for PDF output out of 10000 (max. 100000000)
 

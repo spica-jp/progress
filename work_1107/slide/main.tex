@@ -1,6 +1,6 @@
 \documentclass[dvipdfmx]{beamer}
 \usepackage{pxjahyper}
-\usepackage[uplatex]{test}
+%\usepackage[uplatex]{test}
 \usetheme[
     block=fill, % ブロックに背景をつける
     progressbar=foot, % 各スライドの下にプログレスバー
@@ -47,10 +47,10 @@
    \end{frame}
 
   \begin{frame}
-    \section{学習率の性能比較}
+    \section{ハイパーパラメータの調節}
   \end{frame} 
   
-  \begin{frame}
+  \begin{frame}{学習率による調節}
     \begin{figure}
       \centering
       \includegraphics[keepaspectratio, scale=0.6]{images/compare_learning_rate_4v.png}
@@ -59,11 +59,8 @@
     \end{figure}
   \end{frame}
 
-  \begin{frame}
-    \section{optimizerによる性能比較}
-  \end{frame}
-
-  \begin{frame}{最適化アルゴリズムの種類}
+  \begin{frame}{最適化アルゴリズムによる調節}
+    最適化アルゴリズムの種類
     \begin{itemize}
       \item SGD
       \item Adagrad
@@ -113,7 +110,7 @@
   \begin{frame}
     \begin{table}[H]
       \centering
-      \caption{k分割交差検証の結果}
+      \caption{4分割交差検証の結果}
       \begin{tabular}{cr}
         \hline
         fold & 正解率 \\

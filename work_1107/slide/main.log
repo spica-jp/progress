@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.9.16)  6 NOV 2022 21:23
+This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.9.10)  7 NOV 2022 13:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,7 +7,7 @@ entering extended mode
 pLaTeX2e <2021-11-15u04> (based on LaTeX2e <2022-06-01> patch level 5)
 L3 programming layer <2022-08-30>
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
-Document Class: beamer 2022/09/13 v3.68 A class for typesetting presentations
+Document Class: beamer 2022/05/17 v3.67 A class for typesetting presentations
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
@@ -726,26 +726,6 @@ File: pxjahyper-uni.def 2022/05/27 v1.2
 )
 Package pxjahyper Info: The setup for hyperref 'unicode' is applied.
 )
-(./test.sty
-
-LaTeX Warning: You have requested package `test',
-               but the package provides `skmetro'.
-
-Package: skmetro 2022/11/06 SKu
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-08-30 L3 programming layer (loader) 
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
-File: l3backend-dvipdfmx.def 2022-08-30 L3 backend support: dvipdfmx
-\g__graphics_track_int=\count336
-\l__pdf_internal_box=\box94
-\g__pdf_backend_object_int=\count337
-\g__pdf_backend_annotation_int=\count338
-\g__pdf_backend_link_int=\count339
-))
-Package: xparse 2022-06-22 L3 Experimental document command parser
-)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamertheme-metropolis/beamerthem
 emetropolis.sty
 Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
@@ -761,15 +741,15 @@ Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count340
-\calc@Bcount=\count341
+\calc@Acount=\count336
+\calc@Bcount=\count337
 \calc@Adimen=\dimen308
 \calc@Bdimen=\dimen309
 \calc@Askip=\skip64
 \calc@Bskip=\skip65
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count342
+\calc@Ccount=\count338
 \calc@Cskip=\skip66
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -779,7 +759,7 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box95
+\pgfnodeparttextbox=\box94
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -812,7 +792,7 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count343
+\pgf@plot@mark@count=\count339
 \pgfplotmarksize=\dimen314
 )
 \tikz@lastx=\dimen315
@@ -823,23 +803,23 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@lastmovetoy=\dimen320
 \tikzleveldistance=\dimen321
 \tikzsiblingdistance=\dimen322
-\tikz@figbox=\box96
-\tikz@figbox@bg=\box97
-\tikz@tempbox=\box98
-\tikz@tempbox@bg=\box99
-\tikztreelevel=\count344
-\tikznumberofchildren=\count345
-\tikznumberofcurrentchild=\count346
-\tikz@fig@count=\count347
+\tikz@figbox=\box95
+\tikz@figbox@bg=\box96
+\tikz@tempbox=\box97
+\tikz@tempbox@bg=\box98
+\tikztreelevel=\count340
+\tikznumberofchildren=\count341
+\tikznumberofcurrentchild=\count342
+\tikz@fig@count=\count343
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count348
-\pgfmatrixcurrentcolumn=\count349
-\pgf@matrix@numberofcolumns=\count350
+\pgfmatrixcurrentrow=\count344
+\pgfmatrixcurrentcolumn=\count345
+\pgf@matrix@numberofcolumns=\count346
 )
-\tikz@expandcount=\count351
+\tikz@expandcount=\count347
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -877,450 +857,95 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaL
 aTeX to use the Fira fonts on input line 95.
 
-)) (/usr/local/texlive/2022/texmf-dist/tex/platex/japanese-otf/otf.sty
-Package: otf 2022/03/05 TeX JP org, v1.7b8 psitau, u0.27 ttk
-
-(/usr/local/texlive/2022/texmf-dist/tex/platex/japanese-otf/ajmacros.sty
-Package: ajmacros 2019/04/01 21:00 iNOUE Koich! <inoue@ma.ns.musashi-tech.ac.jp
->
-\@tempcntc=\count352
-\@tempcntd=\count353
-\@tempcnte=\count354
-\@tempcntf=\count355
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count348
+\float@exts=\toks50
+\float@box=\box99
+\@float@everytoks=\toks51
+\@floatcapt=\box100
 )
-Package pxjahyper Info: Loaded 'pxjahyper-ajm.def'.
-
-(/usr/local/texlive/2022/texmf-dist/tex/platex/pxjahyper/pxjahyper-ajm.def
-File: pxjahyper-ajm.def 2022/05/27 v1.2
-))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/iwona/iwona.sty
-Package: iwona 2005/10/03 v.1.2 Iwona package (MW)
-
-(I search kanjifont definition file: . . ) (I search font definition file: . .
-. . . . . . . )
-\c@mv@iwona=\count356
-\c@mv@iwonabold=\count357
-LaTeX Font Info:    Overwriting symbol font `operators' in version `iwona'
-(Font)                  OT1/cmr/m/n --> OT1/iwonam/m/n on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `iwona'
-(Font)                  OML/cmm/m/it --> OML/iwona/m/it on input line 59.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `iwona'
-(Font)                  OMS/cmsy/m/n --> OMS/iwona/m/n on input line 60.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `iwona'
-(Font)                  OMX/cmex/m/n --> OMX/iwona/m/n on input line 61.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `iwonabold'
-(Font)                  OT1/cmr/m/n --> OT1/iwonam/b/n on input line 62.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `iwonabold'
-(Font)                  OML/cmm/m/it --> OML/iwona/b/it on input line 63.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `iwonabold'
-(Font)                  OMS/cmsy/m/n --> OMS/iwona/b/n on input line 64.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `iwonabol
-d'
-(Font)                  OMX/cmex/m/n --> OMX/iwona/b/n on input line 65.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `iwona'
-(Font)                  OT1/cmr/bx/n --> OT1/iwona/bx/n on input line 67.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `iwona'
-(Font)                  OT1/cmss/m/n --> OT1/iwona/m/n on input line 68.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `iwona'
-(Font)                  OT1/cmr/m/it --> OT1/iwona/m/it on input line 69.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `iwona'
-(Font)                  OT1/cmtt/m/n --> OT1/iwona/m/n on input line 70.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `iwonabold'
-(Font)                  OT1/cmss/m/n --> OT1/iwona/bx/n on input line 71.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `iwonabold'
-(Font)                  OT1/cmr/m/it --> OT1/iwona/bx/it on input line 72.
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
-)
-\g_MT_multlinerow_int=\count358
-\l_MT_multwidth_dim=\dimen323
-\origjot=\skip76
-\l_MT_shortvdotswithinadjustabove_dim=\dimen324
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen325
-\l_MT_above_intertext_sep=\dimen326
-\l_MT_below_intertext_sep=\dimen327
-\l_MT_above_shortintertext_sep=\dimen328
-\l_MT_below_shortintertext_sep=\dimen329
-\xmathstrut@box=\box100
-\xmathstrut@dim=\dimen330
-)
-\sympureletters=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 112.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup7
-\symboldletters=\mathgroup8
-\symboldsymbols=\mathgroup9
-\symboldlargesymbols=\mathgroup10
-Package bm Info: No bold for \U/msa/m/n, using \pmb.
-Package bm Info: No bold for \U/msb/m/n, using \pmb.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/esvect/esvect.sty
-Package: esvect 
-\symesvector=\mathgroup11
-LaTeX Font Info:    Redeclaring math symbol \fldr on input line 38.
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamercolorthemerose.sty)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.st
-y) (/usr/local/texlive/2022/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2022-09-07 v3.1.7 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen331
-\l__siunitx_angle_marker_box=\box101
-\l__siunitx_angle_unit_box=\box102
-\l__siunitx_compound_count_int=\count359
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
- (CN)
-)
-\l__siunitx_number_exponent_fixed_int=\count360
-\l__siunitx_number_min_decimal_int=\count361
-\l__siunitx_number_min_integer_int=\count362
-\l__siunitx_number_round_precision_int=\count363
-\l__siunitx_number_group_first_int=\count364
-\l__siunitx_number_group_size_int=\count365
-\l__siunitx_number_group_minimum_int=\count366
-\l__siunitx_table_tmp_box=\box103
-\l__siunitx_table_tmp_dim=\dimen332
-\l__siunitx_table_column_width_dim=\dimen333
-\l__siunitx_table_integer_box=\box104
-\l__siunitx_table_decimal_box=\box105
-\l__siunitx_table_before_box=\box106
-\l__siunitx_table_after_box=\box107
-\l__siunitx_table_before_dim=\dimen334
-\l__siunitx_table_carry_dim=\dimen335
-\l__siunitx_unit_tmp_int=\count367
-\l__siunitx_unit_position_int=\count368
-\l__siunitx_unit_total_int=\count369
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
-Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen336
-\ar@mcellbox=\box108
-\extrarowheight=\dimen337
-\NC@list=\toks50
-\extratabsurround=\skip77
-\backup@length=\skip78
-\ar@cellbox=\box109
-))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen338
-\lightrulewidth=\dimen339
-\cmidrulewidth=\dimen340
-\belowrulesep=\dimen341
-\belowbottomsep=\dimen342
-\aboverulesep=\dimen343
-\abovetopsep=\dimen344
-\cmidrulesep=\dimen345
-\cmidrulekern=\dimen346
-\defaultaddspace=\dimen347
-\@cmidla=\count370
-\@cmidlb=\count371
-\@aboverulesep=\dimen348
-\@belowrulesep=\dimen349
-\@thisruleclass=\count372
-\@lastruleclass=\count373
-\@thisrulewidth=\dimen350
+\heavyrulewidth=\dimen323
+\lightrulewidth=\dimen324
+\cmidrulewidth=\dimen325
+\belowrulesep=\dimen326
+\belowbottomsep=\dimen327
+\aboverulesep=\dimen328
+\abovetopsep=\dimen329
+\cmidrulesep=\dimen330
+\cmidrulekern=\dimen331
+\defaultaddspace=\dimen332
+\@cmidla=\count349
+\@cmidlb=\count350
+\@aboverulesep=\dimen333
+\@belowrulesep=\dimen334
+\@thisruleclass=\count351
+\@lastruleclass=\count352
+\@thisrulewidth=\dimen335
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen351
-\TX@old@table=\dimen352
-\TX@old@col=\dimen353
-\TX@target=\dimen354
-\TX@delta=\dimen355
-\TX@cols=\count374
-\TX@ftn=\toks51
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count375
-\mult@box=\box110
-\multicol@leftmargin=\dimen356
-\c@unbalance=\count376
-\c@collectmore=\count377
-\doublecol@number=\count378
-\multicoltolerance=\count379
-\multicolpretolerance=\count380
-\full@width=\dimen357
-\page@free=\dimen358
-\premulticols=\dimen359
-\postmulticols=\dimen360
-\multicolsep=\skip79
-\multicolbaselineskip=\skip80
-\partial@page=\box111
-\last@line=\box112
-\maxbalancingoverflow=\dimen361
-\mult@rightbox=\box113
-\mult@grightbox=\box114
-\mult@firstbox=\box115
-\mult@gfirstbox=\box116
-\@tempa=\box117
-\@tempa=\box118
-\@tempa=\box119
-\@tempa=\box120
-\@tempa=\box121
-\@tempa=\box122
-\@tempa=\box123
-\@tempa=\box124
-\@tempa=\box125
-\@tempa=\box126
-\@tempa=\box127
-\@tempa=\box128
-\@tempa=\box129
-\@tempa=\box130
-\@tempa=\box131
-\@tempa=\box132
-\@tempa=\box133
-\@tempa=\box134
-\@tempa=\box135
-\@tempa=\box136
-\@tempa=\box137
-\@tempa=\box138
-\@tempa=\box139
-\@tempa=\box140
-\@tempa=\box141
-\@tempa=\box142
-\@tempa=\box143
-\@tempa=\box144
-\@tempa=\box145
-\@tempa=\box146
-\@tempa=\box147
-\@tempa=\box148
-\@tempa=\box149
-\@tempa=\box150
-\@tempa=\box151
-\@tempa=\box152
-\c@minrows=\count381
-\c@columnbadness=\count382
-\c@finalcolumnbadness=\count383
-\last@try=\dimen362
-\multicolovershoot=\dimen363
-\multicolundershoot=\dimen364
-\mult@nat@firstbox=\box153
-\colbreak@box=\box154
-\mc@col@check@num=\count384
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip81
-\multirow@cntb=\count385
-\multirow@dima=\skip82
-\bigstrutjot=\dimen365
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count386
-\float@exts=\toks52
-\float@box=\box155
-\@float@everytoks=\toks53
-\@floatcapt=\box156
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2022/03/01 v3.6b Customizing captions (AR)
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen366
-\captionmargin=\dimen367
-\caption@leftmargin=\dimen368
-\caption@rightmargin=\dimen369
-\caption@width=\dimen370
-\caption@indent=\dimen371
-\caption@parindent=\dimen372
-\caption@hangindent=\dimen373
-Package caption Info: beamer document class detected.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption-beamer.sto
-File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
-e beamer document classes (AR)
-))
-\c@caption@flags=\count387
-\c@continuedfloat=\count388
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: Hyperref support is turned off
-(caption)             because hyperref has stopped early.
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
-\c@subfigure=\count389
-\c@subtable=\count390
-)
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryintersections.code.tex
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryinterse
-ctions.code.tex
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
-e.tex)
-\pgf@intersect@solutions=\count391
-))
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
-meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen374
-\pgfarrowlength=\dimen375
-\pgfarrowwidth=\dimen376
-\pgfarrowlinewidth=\dimen377
-LaTeX Font Info:    Trying to load font information for T1+iwona on input line 
-204.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/iwona/t1iwona.fd
-File: t1iwona.fd 2008/07/22 v0.995 font definition file for T1/iwona (MW)
-))
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarymath.code.tex
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryfpu.code.tex)
-\tikz@math@for@depth=\count392
-\tikz@math@dimen=\dimen378
-\tikz@math@toks=\toks54
-)
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarythrough.code.tex
-File: tikzlibrarythrough.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2022/06/24 version 5.1.1 text color boxes
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks55
-\verbatim@line=\toks56
-\verbatim@in@stream=\read3
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/environ/environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/trimspaces/trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-\tcb@titlebox=\box157
-\tcb@upperbox=\box158
-\tcb@lowerbox=\box159
-\tcb@phantombox=\box160
-\c@tcbbreakpart=\count393
-\c@tcblayer=\count394
-\c@tcolorbox@number=\count395
-\tcb@temp=\box161
-\tcb@temp=\box162
-\tcb@temp=\box163
-\tcb@temp=\box164
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
-Library (tcolorbox): 'tcbtheorems.code.tex' version '5.1.1'
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '5.1.1'
-(/usr/local/texlive/2022/texmf-dist/tex/generic/oberdiek/pdfcol.sty
-Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
-Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
-)
-Package pdfcol Info: pdfTeX's color stacks are not available.
-\tcb@testbox=\box165
-\tcb@totalupperbox=\box166
-\tcb@totallowerbox=\box167
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '5.1.1'
-\tcb@waterbox=\box168
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '5.1.1'
-)) (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
-Library (tcolorbox): 'tcbxparse.code.tex' version '5.1.1'
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
-Library (tcolorbox): 'tcbhooks.code.tex' version '5.1.1'
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count396
-\lst@gtempboxa=\box169
-\lst@token=\toks57
-\lst@length=\count397
-\lst@currlwidth=\dimen379
-\lst@column=\count398
-\lst@pos=\count399
-\lst@lostspace=\dimen380
-\lst@width=\dimen381
-\lst@newlines=\count400
-\lst@lineno=\count401
-\lst@maxwidth=\dimen382
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count402
-\lst@skipnumbers=\count403
-\lst@framebox=\box170
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/jvlisting/jvlisting.sty
-Package: jvlisting 2011/11/17 v0.7 Formatted Program Listings
-\jvl@idt=\count404
-\jvl@tmphyphenchar=\count405
-\jvl@fileinput=\read4
-\listingskipamount=\skip83
-\listingindent=\dimen383
-\prelistingpenalty=\count406
-\listingpenalty=\count407
-\postlistingpenalty=\count408
-))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/ascmac/ascmac.sty
 Package: ascmac 2020/01/15 v2.1 ascmac wrapper (community edition) 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/ascmac/tascmac.sty
 Package: tascmac 2020/01/15 v2.1 ascmac package (community edition) 
-\@savetbaselineshift=\dimen384
-\@saveybaselineshift=\dimen385
-\scb@x=\box171
-\scscb@x=\box172
-\@bw=\dimen386
-\@nbox=\box173
-\@nbody=\box174
-\@scw=\dimen387
-\ascmac@hoboxa=\box175
-\ascmac@hoboxb=\box176
-\@itemh=\dimen388
-\@iboxpos=\toks58
-\@iboxstr=\box177
-\@bwsp=\box178
-\@@bwsp=\box179
-\@bcal=\count409
-\shaderule=\dimen389
+\@savetbaselineshift=\dimen336
+\@saveybaselineshift=\dimen337
+\scb@x=\box101
+\scscb@x=\box102
+\@bw=\dimen338
+\@nbox=\box103
+\@nbody=\box104
+\@scw=\dimen339
+\ascmac@hoboxa=\box105
+\ascmac@hoboxb=\box106
+\@itemh=\dimen340
+\@iboxpos=\toks52
+\@iboxstr=\box107
+\@bwsp=\box108
+\@@bwsp=\box109
+\@bcal=\count353
+\shaderule=\dimen341
 ))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fancybox/fancybox.sty
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
-\@fancybox=\box180
-\shadowsize=\dimen390
-\@Sbox=\box181
-\do@VerbBox=\toks59
-\the@fancyput=\toks60
-\this@fancyput=\toks61
-\EndVerbatimTokens=\toks62
+\@fancybox=\box110
+\shadowsize=\dimen342
+\@Sbox=\box111
+\do@VerbBox=\toks53
+\the@fancyput=\toks54
+\this@fancyput=\toks55
+\EndVerbatimTokens=\toks56
 \Verbatim@Outfile=\write5
-\Verbatim@Infile=\read5
+\Verbatim@Infile=\read3
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count354
+\l_MT_multwidth_dim=\dimen343
+\origjot=\skip76
+\l_MT_shortvdotswithinadjustabove_dim=\dimen344
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen345
+\l_MT_above_intertext_sep=\dimen346
+\l_MT_below_intertext_sep=\dimen347
+\l_MT_above_shortintertext_sep=\dimen348
+\l_MT_below_shortintertext_sep=\dimen349
+\xmathstrut@box=\box112
+\xmathstrut@dim=\dimen350
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen351
+\pgfarrowlength=\dimen352
+\pgfarrowwidth=\dimen353
+\pgfarrowlinewidth=\dimen354
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarybending.code.tex
@@ -1333,26 +958,68 @@ File: pgfmodulebending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineart
 ransformations.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgftransformnonlinearflatness=\dimen391
+\pgftransformnonlinearflatness=\dimen355
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvili
 near.code.tex
 File: pgflibrarycurvilinear.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@curvilinear@time@a=\dimen392
-\pgf@curvilinear@length@a=\dimen393
-\pgf@curvilinear@length@b=\dimen394
-\pgf@curvilinear@length@c=\dimen395
-\pgf@curvilinear@length@d=\dimen396
+\pgf@curvilinear@time@a=\dimen356
+\pgf@curvilinear@length@a=\dimen357
+\pgf@curvilinear@length@b=\dimen358
+\pgf@curvilinear@length@c=\dimen359
+\pgf@curvilinear@length@d=\dimen360
 )
-\pgf@arrows@the@rigidity=\dimen397
+\pgf@arrows@the@rigidity=\dimen361
 ))
-Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 42.
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count355
+\lst@gtempboxa=\box113
+\lst@token=\toks57
+\lst@length=\count356
+\lst@currlwidth=\dimen362
+\lst@column=\count357
+\lst@pos=\count358
+\lst@lostspace=\dimen363
+\lst@width=\dimen364
+\lst@newlines=\count359
+\lst@lineno=\count360
+\lst@maxwidth=\dimen365
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count361
+\lst@skipnumbers=\count362
+\lst@framebox=\box114
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/jvlisting/jvlisting.sty
+Package: jvlisting 2011/11/17 v0.7 Formatted Program Listings
+\jvl@idt=\count363
+\jvl@tmphyphenchar=\count364
+\jvl@fileinput=\read4
+\listingskipamount=\skip77
+\listingindent=\dimen366
+\prelistingpenalty=\count365
+\listingpenalty=\count366
+\postlistingpenalty=\count367
+)
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 10.53629pt on input line 42.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 10.53629pt on input line 42.
- (./main.aux)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
+File: l3backend-dvipdfmx.def 2022-08-30 L3 backend support: dvipdfmx
+\g__graphics_track_int=\count368
+\l__pdf_internal_box=\box115
+\g__pdf_backend_object_int=\count369
+\g__pdf_backend_annotation_int=\count370
+\g__pdf_backend_link_int=\count371
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -1417,104 +1084,54 @@ Package hyperref Info: Link coloring OFF on input line 42.
 \openout6 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/iwonam/m/n --> OT1/cmss/m/n on input line 42.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 42.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/iwonam/b/n --> OT1/cmss/b/n on input line 42.
-\symnumbers=\mathgroup12
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 42.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 42
-.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/mathkerncmss/m/sl --> T1/cmss/m/it on input line 42
-.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 42.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/bx/sl --> T1/cmss/m/it on input line 4
-2.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `pureletters' in the math version `iwona' on input line 42.
-
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `iwona'
-(Font)                  OT1/mathkerncmss/m/sl --> T1/cmss/m/it on input line 42
-.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `pureletters' in the math version `iwonabold' on input line
- 42.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `iwonabold
-'
-(Font)                  OT1/mathkerncmss/m/sl --> T1/cmss/m/it on input line 42
-.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 42.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/iwona/m/n on input line 42.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 42.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 42.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/iwona/m/n --> T1/cmss/m/n on input line 42.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/iwona/bx/n --> T1/cmss/m/n on input line 42.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `iwona'
-(Font)                  OT1/iwona/m/n --> T1/cmss/m/n on input line 42.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `iwonabold'
-(Font)                  OT1/iwona/bx/n --> T1/cmss/m/n on input line 42.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 42.
 LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/iwona/m/it --> T1/cmss/m/it on input line 42.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/iwona/bx/it --> T1/cmss/m/it on input line 42.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `iwona'
-(Font)                  OT1/iwona/m/it --> T1/cmss/m/it on input line 42.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `iwonabold'
-(Font)                  OT1/iwona/bx/it --> T1/cmss/m/it on input line 42.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 42.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/iwona/m/n --> T1/cmtt/m/n on input line 42.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 42.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `iwona'
-(Font)                  OT1/iwona/m/n --> T1/cmtt/m/n on input line 42.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `iwonabold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 42.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 42.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 42.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 42.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 42.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/iwona/b/n on input line 42.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 42.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 42.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 42.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 42.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 42.
 LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 42.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 42
-.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 42
-.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 42.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
+2.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 42
-.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `iwona' on input line 42.
-
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `iwona'
-(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 42
-.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `iwonabold' on input line
- 42.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `iwonabold
-'
-(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 42
-.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 4
+2.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
 ut line 42.
@@ -1543,46 +1160,31 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-d
-ictionary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `tra
-nslations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 42.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: listings package is loaded.
-Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count410
+\c@lstlisting=\count372
  (./main.nav)
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 5.77332pt on input line 42.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 5.77332pt on input line 42.
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 7.69775pt on input line 42.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 7.69775pt on input line 42.
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 43.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 43.
-
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 43.
-
-LaTeX Font Info:    Font shape `JT2/hgt/bx/n' will be
+LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <14.4> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 43.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 43.
-LaTeX Font Info:    Font shape `JY2/hgt/bx/n' will be
+LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <14.4> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 43.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 43.
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/m/n' instead on input line 43.
-
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 43.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 43.
 
 Overfull \vbox (15.63992pt too high) detected at line 43
@@ -1591,57 +1193,25 @@ Overfull \vbox (15.63992pt too high) detected at line 43
 [1
 
 ] (./main.toc)
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 47.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 47.
-
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 47.
-
-LaTeX Font Info:    Font shape `JT2/hgt/bx/n' will be
+LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <12> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 47.
-LaTeX Font Info:    Font shape `JY2/hgt/bx/n' will be
+LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <12> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 47.
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 3.84888pt on input line 47.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 3.84888pt on input line 47.
-[2
+ [2
 
 ]
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 51.
-
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 51.
-
-LaTeX Font Info:    Trying to load font information for OT1+iwonam on input lin
-e 51.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/iwona/ot1iwonam.fd
-File: ot1iwonam.fd 2005/10/05 v1.2 font definition file for OT1/iwonam (MW)
-)
-LaTeX Font Info:    Trying to load font information for OML+iwona on input line
- 51.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/iwona/omliwona.fd
-File: omliwona.fd 2008/07/22 v0.995 font definition file for OML/iwona (MW)
-)
-LaTeX Font Info:    Trying to load font information for OMS+iwona on input line
- 51.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/iwona/omsiwona.fd
-File: omsiwona.fd 2008/07/22 v0.995 font definition file for OMS/iwona (MW)
-)
-LaTeX Font Info:    Trying to load font information for OMX+iwona on input line
- 51.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/iwona/omxiwona.fd
-File: omxiwona.fd 2008/07/22 v0.995 font definition file for OMX/iwona (MW)
-)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 
 
@@ -1660,129 +1230,53 @@ ut line 51.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 
-51.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/esvect/uesvect.fd
-File: uesvect.fd 
 ) [3
 
 ]
 File: images/compare_learning_rate_4v.png.png Graphic file (type bmp)
 <images/compare_learning_rate_4v.png.png>
+LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 60.
+LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 60.
 
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 60.
-
-LaTeX Font Info:    Font shape `JT2/hgt/bx/n' will be
-(Font)              scaled to size 10.53629pt on input line 60.
-LaTeX Font Info:    Font shape `JY2/hgt/bx/n' will be
-(Font)              scaled to size 10.53629pt on input line 60.
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 60.
-
-
-Overfull \vbox (7.51318pt too high) detected at line 60
+Overfull \vbox (39.36905pt too high) detected at line 60
  []
 
 [4
 
 ]
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 64.
-
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 64.
-
-[5
-
-]
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 73.
-
-[6
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+70.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [5
 
 ]
 File: images/compare_learning_rate_optimizer.png Graphic file (type bmp)
 <images/compare_learning_rate_optimizer.png>
 
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 81.
-
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 81.
-
-
-Overfull \vbox (7.51318pt too high) detected at line 81
+Overfull \vbox (6.88498pt too high) detected at line 78
  []
 
-[7
+[6
 
-]
+] [7
 
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 85.
-
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 85.
-
-[8
-
-]
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 98.
-
-[9
+] [8
 
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb
+ (./main.vrb) [9
 
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 2.
+] [10
 
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 2.
-
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-7.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-))
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 111.
-
-[10
-
-]
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 130.
-
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 130.
-
-[11
-
-]
-
-LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
-(Font)              using `JY2/hgt/bx/n' instead on input line 138.
-
-[12
+] [11
 
 ]
 \tf@nav=\write7
@@ -1795,19 +1289,16 @@ LaTeX Font Warning: Font shape `JY2/hgt/b/n' undefined
 \openout9 = `main.snm'.
 
  (./main.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E083274F783DA44FBBCD1386EBB2C419;401.
+(rerunfilecheck)             Checksum: 88A1C8F369B422370256454522F1D0F0;289.
  ) 
 Here is how much of TeX's memory you used:
- 42500 strings out of 475526
- 908523 string characters out of 5790913
- 1272496 words of memory out of 5000000
- 63358 multiletter control sequences out of 15000+600000
- 542218 words of font info for 118 fonts, out of 8000000 for 9000
+ 28652 strings out of 475526
+ 576330 string characters out of 5790913
+ 973835 words of memory out of 5000000
+ 49683 multiletter control sequences out of 15000+600000
+ 513545 words of font info for 92 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 128i,14n,125p,1930b,1408s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,14n,122p,1892b,1211s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (12 pages, 48988 bytes).
+Output written on main.dvi (11 pages, 41756 bytes).

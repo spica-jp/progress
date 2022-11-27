@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.16)  20 NOV 2022 20:15
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.10)  21 NOV 2022 13:14
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
 . L3 programming layer <2022-08-30>
 Inserting `tracingstacklevels' at position 1 in `input_level_string'.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
-Document Class: beamer 2022/09/13 v3.68 A class for typesetting presentations
+Document Class: beamer 2022/05/17 v3.67 A class for typesetting presentations
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
@@ -1852,15 +1852,22 @@ Overfull \vbox (15.63992pt too high) detected at line 35
 
 [1
 
-] (./main.toc)
-LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 39.
-LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 39.
-LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/b/n' will be
-(Font)              scaled to size 11.54663pt on input line 39.
-LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/b/n' will be
-(Font)              scaled to size 11.54663pt on input line 39.
+]
+LaTeX Font Info:    Trying loading font information for U+msa on input line 39.
+
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying loading font information for U+msb on input line 39.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 39.
+LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 39.
 LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
 (Font)              scaled to size 3.84888pt on input line 39.
 LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
@@ -1868,39 +1875,15 @@ LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
  [2
 
 ]
-LaTeX Font Info:    Trying loading font information for U+msa on input line 43.
-
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying loading font information for U+msb on input line 43.
-
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 43.
-LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 43.
- [3
-
-]
 LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 50.
+(Font)              scaled to size 11.54663pt on input line 53.
 LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 50.
-LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 50.
-LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 50.
- [4
-
-]
-[5
-
-] [6
+(Font)              scaled to size 11.54663pt on input line 53.
+LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/b/n' will be
+(Font)              scaled to size 11.54663pt on input line 53.
+LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/b/n' will be
+(Font)              scaled to size 11.54663pt on input line 53.
+ [3
 
 ]
 
@@ -1938,7 +1921,11 @@ tlig;+tnum;"
 (fontspec)             <->"FiraSansItalic:mode=node;script=latn;language=dflt;+
 tlig;+tnum;+smcp;"
 
- [7
+
+Overfull \vbox (8.59402pt too high) detected at line 77
+ []
+
+[4
 
 ]
 \tf@nav=\write8
@@ -1952,29 +1939,29 @@ tlig;+tnum;+smcp;"
 \openout10 = main.snm
  (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 04246C574B87028F8A10B85327CECB60;283.
+(rerunfilecheck)             Checksum: 7F9FD0D5140C767963F361E62ADA8D79;152.
 )
 
 Here is how much of LuaTeX's memory you used:
- 37937 strings out of 477356
+ 37862 strings out of 477356
  125031,1373583 words of node,token memory allocated
- 36195 words of node memory still in use:
-   104 hlist, 10 vlist, 44 rule, 2 local_par, 58 math, 282 glue, 38 kern, 18 pen
-alty, 119 glyph, 14447 attribute, 72 glue_spec, 740 attribute_list, 4 write, 105
- user_defined, 18 pdf_colorstack nodes
-   avail lists: 1:18,2:15245,3:225,4:442,5:106,6:28,7:1046,8:11,9:578,10:27,11:4
+ 50176 words of node memory still in use:
+   144 hlist, 10 vlist, 57 rule, 2 local_par, 90 math, 390 glue, 54 kern, 18 pen
+alty, 179 glyph, 20099 attribute, 72 glue_spec, 1028 attribute_list, 4 write, 14
+1 user_defined, 18 pdf_colorstack nodes
+   avail lists: 1:18,2:15245,3:201,4:514,5:138,6:28,7:1446,8:11,9:525,10:27,11:4
 
- 57283 multiletter control sequences out of 65536+600000
- 114 fonts using 74296703 bytes
+ 57222 multiletter control sequences out of 65536+600000
+ 95 fonts using 65686775 bytes
  128i,14n,131p,1895b,1066s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.
 otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Ligh
 t.otf></usr/local/texlive/2022/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf
 ></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-Output written on main.pdf (7 pages, 202608 bytes).
+Output written on main.pdf (4 pages, 192944 bytes).
 
-PDF statistics: 94 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 131072)
- 32 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 70 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 131072)
+ 24 words of extra memory for PDF output out of 10000 (max. 100000000)
 

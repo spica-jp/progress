@@ -1,8 +1,8 @@
-This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.9.10)  24 OCT 2022 23:23
+This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.9.10)  25 OCT 2022 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main
 (./main.tex
 pLaTeX2e <2021-11-15u04> (based on LaTeX2e <2022-06-01> patch level 5)
 L3 programming layer <2022-08-30>
@@ -1346,6 +1346,6 @@ Here is how much of TeX's memory you used:
  48956 multiletter control sequences out of 15000+600000
  482601 words of font info for 90 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 128i,14n,122p,1896b,931s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,14n,122p,1892b,931s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (18 pages, 80436 bytes).
+Output written on main.dvi (18 pages, 80444 bytes).

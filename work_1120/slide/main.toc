@@ -1,2 +1,1 @@
-\beamer@sectionintoc {1}{画像作成時のコード修正}{3}{0}{1}
-\beamer@sectionintoc {2}{k分割交差検証（比率を考慮）}{5}{0}{2}
+\beamer@sectionintoc {1}{k分割交差検証（比率を考慮）}{2}{0}{1}

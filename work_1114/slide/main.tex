@@ -82,9 +82,15 @@
       \end{tabular}
     \end{table}
   \end{frame}
+  
+  \begin{frame}{考察}
+    \begin{itemize}
+      \item 配列をシャッフルしてk個に分割したため、訓練データと検証データのラベルの比率が毎回バラバラになっているため、結果が正確とは言えない\mbox{}\\ $\rightarrow$sklearnを用いて、訓練データと検証データのラベルの比率を揃える
+    \end{itemize}
+  \end{frame}
 
   \begin{frame}
-    \section{混同行列}
+    \section{混同行列のヒートマップ}
   \end{frame}
 
   \begin{frame}{学習の様子}
@@ -95,20 +101,28 @@
     \end{figure}
   \end{frame}
 
-  \begin{frame}{混同行列（割合）}
+  \begin{frame}{混同行列（割合）のヒートマップ\footnote{縦軸が正解ラベル、横軸が予測ラベル}}
     \begin{figure}
       \centering
       \includegraphics[keepaspectratio, scale=0.6]{images/deep_conv_heatmap.pdf}
-      \label{fig:heatmap}
+      \label{fig:heatmap_ratio}
     \end{figure}
   \end{frame}
 
-  \begin{frame}{混同行列（個数）}
+  \begin{frame}{混同行列（個数）のヒートマップ\footnote{縦軸が正解ラベル、横軸が予測ラベル}}
     \begin{figure}
       \centering
       \includegraphics[keepaspectratio, scale=0.6]{images/deep_conv_cnt_heatmap.pdf}
-      \label{fig:heatmap}
+      \label{fig:heatmap_cnt}
     \end{figure}
+  \end{frame}
+
+  \begin{frame}{考察}
+    \begin{itemize}
+      \item メモリが数値でわかりにくいので、ファミリー名で表す
+      \item x軸とy軸のラベルを入れる
+      \item 正解ラベルが1または2で、予測ラベルが0となって間違っているデータが多い \mbox{}\\ $\rightarrow$データの偏りが原因として考えられるので、水増しをしたら正解率上がるかも
+    \end{itemize}
   \end{frame}
 
   \begin{frame}

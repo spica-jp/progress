@@ -1,12 +1,9 @@
 \documentclass[dvipdfmx]{beamer}
-\usepackage{pxjahyper}
-%\usepackage[uplatex]{test}
 \usetheme[
     block=fill, % ブロックに背景をつける
     progressbar=foot, % 各スライドの下にプログレスバー
     numbering=fraction % 合計ページ数を表示
 ]{metropolis}           % Use metropolis theme
-%\usetheme{CambridgeUS}
 \usepackage{float}
 \usepackage{booktabs}
 \usepackage{ascmac}
@@ -14,21 +11,26 @@
 \usepackage{amsmath}
 \usepackage{mathtools}
 \renewcommand{\kanjifamilydefault}{\gtdefault} % 和文デフォルトをゴシック体に
+\usecolortheme{rose}
 \usepackage{tikz}
 \usetikzlibrary {arrows.meta}
 \usetikzlibrary {bending}
 \usepackage{listings,jvlisting} %日本語のコメントアウトをする場合jvlisting（もしくはjlisting）が必要
 %ここからソースコードの表示に関する設定
 \lstset{
-  basicstyle={\tiny},
-  stringstyle={tiny},
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
   frame={tb},
   breaklines=true,
   columns=[l]{fullflexible},
   numbers=left,
   xrightmargin=0zw,
   xleftmargin=3zw,
-  numberstyle={\tiny},
+  numberstyle={\scriptsize},
   stepnumber=1,
   numbersep=1zw,
   lineskip=-0.5ex
@@ -38,12 +40,13 @@
 \date{\today}
 \author{水野泰旭}
 \institute{弘前大学理工学部電子情報工学科４年}
-\subject{}
+\subject{学習率による正解率向上}
 \begin{document}
   \maketitle
-
-  \begin{frame}{目次}
-    \tableofcontents
-   \end{frame}
+  
+  \begin{frame}{10分割交差検証の比較}
+  \end{frame}
 
 \end{document}
+
+
