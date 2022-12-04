@@ -1,0 +1,119 @@
+\documentclass[leno,xcolor=dvipsnames]{beamer}
+\usetheme[
+    block=fill, % ブロックに背景をつける
+    progressbar=foot, % 各スライドの下にプログレスバー
+    numbering=fraction % 合計ページ数を表示
+]{metropolis}
+
+\usepackage{luatexja}% 日本語したい
+\usepackage[ipaex]{luatexja-preset}% IPAexフォントしたい
+\renewcommand{\kanjifamilydefault}{\gtdefault}% 既定をゴシック体に
+
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{ascmac}
+\usepackage{fancybox}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{url}
+\usetikzlibrary {arrows.meta}
+\usetikzlibrary {bending}
+\usepackage{listings}
+\lstset{
+    frame=single,
+    basicstyle=\tiny\ttfamily,
+    tabsize=4
+}
+\usepackage{booktabs}
+\usepackage{multirow}
+
+\title{進捗報告}
+\date{\today}
+\author{水野泰旭}
+\institute{弘前大学理工学部電子情報工学科４年}
+\subject{}
+\begin{document}
+  \maketitle
+
+  \begin{frame}
+    \section{F値}
+  \end{frame}
+
+  \begin{frame}{F値とは}
+    \begin{block}{\href{https://atmarkit.itmedia.co.jp/ait/articles/2210/24/news034.html}{定義}}
+      統計学・機械が空襲におけるF値もしくはFスコアとは基本的に二値分類のタスク評価指標の一つで、
+      適合率と再現率のトレードオフ関係に着目し、２つの値を調和平均した値のことである。
+      0.0 \textasciitilde 1.0の範囲の値になり、1.0に近づくほどよい。1.0に近いことは適合率と再現率の両方が
+      同時にできるだけ高いことを意味するので、最も効率よくバランスの取れた機械学習モデルと言える。
+    \end{block}
+  \end{frame}
+
+  \begin{frame}{二値分類のタスクにおけるF値}
+    \begin{table}[H]
+      \centering
+      \begin{tabular}{cccc}
+        \toprule
+        \multicolumn{2}{c}{F値\footnote{適合率と再現率の調和平均}} & \multicolumn{2}{c}{予測値} \\ \cline{3-4}
+        & & 陽性　& 陰性 \\
+        \midrule
+        \multirow{2}{*}{正解率} & 陽性 & TP:True Positive & FN:False Negative \\
+        & 陰性 & FP:False Positive & TN:True Negative \\
+        \bottomrule
+      \end{tabular}
+    \end{table}
+    \begin{itemize}
+      \item 適合率 \mbox{} 陽性の予測がより正確になっていること \[ \mathrm{Precision} = \frac{TP}{TP + FP} \]
+      \item 再現率 \mbox{} 陽性の予測での取りこぼしを少なくしたい \[ \mathrm{Recall} = \frac{TP}{TP + FN} \]
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{二値分類のタスクにおけるF値}
+    \begin{eqnarray*}
+      F_1score 
+      &=& \frac{2}{\frac{1}{Precision} + \frac{1}{Recall}} \\
+      &=& \frac{2}{\frac{\mathrm{TP} + \mathrm{FP}}{\mathrm{TP}} + \frac{\mathrm{TP} + \mathrm{FN}}{\mathrm{TP}}} \\
+      &=& \frac{2\mathrm{TP}}{2\mathrm{TP} + \mathrm{FP} + \mathrm{FN}}
+    \end{eqnarray*}
+  \end{frame}
+
+  \begin{frame}{\href{https://qiita.com/jyori112/items/110596b4f04e4e1a3c9b}{多クラス分類タスクにおけるF値}}
+    クラスを一つを選びPositiveとし、それ以外をNegativeとして評価値を計算したあとそれらの平均を取ることで
+    全体の評価値を計算する。このときの平均の取り方は以下の二種類ある。
+    \begin{itemize}
+      \item macro平均 
+      \item micro平均 
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{macro平均}
+    $class \in \{A, B, C\}$ において、三つのクラスの分類タスクを考える。
+    \begin{eqnarray*}
+      \mathrm{Accuracy}_{\mathrm{class}} &=& \frac{\mathrm{TP}_{\mathrm{class}} + \mathrm{TN}_{\mathrm{class}}}{\mathrm{TP}_{\mathrm{class}} + \mathrm{TN}_{\mathrm{class}} + \mathrm{FP}_{\mathrm{class}} + \mathrm{FN}_{\mathrm{class}}} \\
+      \mathrm{Recall}_{\mathrm{class}} &=& \frac{\mathrm{TP}_{\mathrm{class}}}{\mathrm{TP}_{\mathrm{class}} + \mathrm{FN}_{\mathrm{class}}} \\
+      \mathrm{Precision}_{\mathrm{class}} &=& \frac{\mathrm{TP}_{\mathrm{class}}}{\mathrm{TP}_{\mathrm{class}} + \mathrm{FP}_{\mathrm{class}}}
+    \end{eqnarray*}
+  \end{frame}
+
+  \begin{frame}{micro平均}
+    各クラスのexample数が大きく異なる場合に、macro平均では実際の精度が計算できない場合がある。そこでmicro平均を用いる。
+    \begin{equation*}
+      \mathrm{micro\_Accuracy} = \frac{\text{各クラスにおける正解した個数の和}}{\text{各クラスにおける個数の和}}
+    \end{equation*}
+    micro平均はAccuracyに限らず、PrecisionとRecall、F値に対しても計算できるが、すべてAccuracyと同じ値になる。
+  \end{frame}
+
+  \begin{frame}{これからやること}
+    \begin{itemize}
+      \item 先行研究の論文を読んで自分の研究と比較する
+      \begin{itemize}
+        \item DeepFam
+        \item DeepHiFam
+      \end{itemize}
+    \end{itemize}
+  \end{frame}
+
+\end{document}
+
+
