@@ -43,11 +43,11 @@
 
   \begin{frame}{F値とは}
     \begin{block}{\href{https://atmarkit.itmedia.co.jp/ait/articles/2210/24/news034.html}{定義}}
-      統計学・機械が空襲におけるF値もしくはFスコアとは基本的に二値分類のタスク評価指標の一つで、
+      統計学・機械学習におけるF値もしくはFスコアとは基本的に二値分類のタスク評価指標の一つで、
       適合率と再現率のトレードオフ関係に着目し、２つの値を調和平均した値のことである。
-      0.0 \textasciitilde 1.0の範囲の値になり、1.0に近づくほどよい。1.0に近いことは適合率と再現率の両方が
-      同時にできるだけ高いことを意味するので、最も効率よくバランスの取れた機械学習モデルと言える。
     \end{block}
+    0.0 \textasciitilde 1.0の範囲の値になり、1.0に近づくほどよい。1.0に近いことは適合率と再現率の両方が
+    同時にできるだけ高いことを意味するので、最も効率よくバランスの取れた機械学習モデルと言える。
   \end{frame}
 
   \begin{frame}{二値分類のタスクにおけるF値}
@@ -70,6 +70,7 @@
   \end{frame}
 
   \begin{frame}{二値分類のタスクにおけるF値}
+    適合率と再現率の調和平均を取る。
     \begin{eqnarray*}
       F_1score 
       &=& \frac{2}{\frac{1}{Precision} + \frac{1}{Recall}} \\
@@ -88,24 +89,28 @@
   \end{frame}
 
   \begin{frame}{macro平均}
-    $class \in \{A, B, C\}$ において、三つのクラスの分類タスクを考える。
+    $class \in \{A, B, C\}$ として、三つのクラスの分類タスクを考える。
     \begin{eqnarray*}
-      \mathrm{Accuracy}_{\mathrm{class}} &=& \frac{\mathrm{TP}_{\mathrm{class}} + \mathrm{TN}_{\mathrm{class}}}{\mathrm{TP}_{\mathrm{class}} + \mathrm{TN}_{\mathrm{class}} + \mathrm{FP}_{\mathrm{class}} + \mathrm{FN}_{\mathrm{class}}} \\
-      \mathrm{Recall}_{\mathrm{class}} &=& \frac{\mathrm{TP}_{\mathrm{class}}}{\mathrm{TP}_{\mathrm{class}} + \mathrm{FN}_{\mathrm{class}}} \\
-      \mathrm{Precision}_{\mathrm{class}} &=& \frac{\mathrm{TP}_{\mathrm{class}}}{\mathrm{TP}_{\mathrm{class}} + \mathrm{FP}_{\mathrm{class}}}
+      \mathrm{Accuracy}_{class} &=& \frac{\mathrm{TP}_{class} + \mathrm{TN}_{class}}{\mathrm{TP}_{class} + \mathrm{TN}_{class} + \mathrm{FP}_{class} + \mathrm{FN}_{class}} \\
+      \mathrm{Recall}_{class} &=& \frac{\mathrm{TP}_{class}}{\mathrm{TP}_{class} + \mathrm{FN}_{class}} \\
+      \mathrm{Precision}_{class} &=& \frac{\mathrm{TP}_{class}}{\mathrm{TP}_{class} + \mathrm{FP}_{class}} \\
+      \mathrm{\mathrm{F}}_{class} &=& \frac{2 \cdot \mathrm{Recall}_{class} \cdot \mathrm{Precision}_{class}}{\mathrm{Recall}_{class} + \mathrm{Precision}_{class}}
     \end{eqnarray*}
+    macro-F1はクラスごとのF1値の平均を取る。
   \end{frame}
 
   \begin{frame}{micro平均}
     各クラスのexample数が大きく異なる場合に、macro平均では実際の精度が計算できない場合がある。そこでmicro平均を用いる。
     \begin{equation*}
-      \mathrm{micro\_Accuracy} = \frac{\text{各クラスにおける正解した個数の和}}{\text{各クラスにおける個数の和}}
+      \mathrm{micro\_F1} = \frac{\mathrm{TP} + \mathrm{FN}}{\mathrm{TP} + \mathrm{TN} + \mathrm{FP} + \mathrm{FN}}
     \end{equation*}
     micro平均はAccuracyに限らず、PrecisionとRecall、F値に対しても計算できるが、すべてAccuracyと同じ値になる。
   \end{frame}
 
-  \begin{frame}{これからやること}
-    \begin{itemize}
+  \begin{frame}{まとめとこれからやること}
+    \begin{itemize} 
+      \item GCPRはクラスごとの数が大きく異なるのでmicro-F1のほうが適切
+      \item macro-F1とmicro-F1の比較をする
       \item 先行研究の論文を読んで自分の研究と比較する
       \begin{itemize}
         \item DeepFam
