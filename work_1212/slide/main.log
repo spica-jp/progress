@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.10)  12 DEC 2022 00:41
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.10)  12 DEC 2022 01:20
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2040,38 +2040,59 @@ LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
 (Font)              scaled to size 4.8111pt on input line 108.
  [6
 
-] [7
+](load cache: extra_lmroman7-regular.luc)
+LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
+(Font)              scaled to size 6.73553pt on input line 119.
+ [7
 
 ] [8
 
+] [9
+
 ]
-\openout4 = main.vrb
+\tf@nav=\write8
 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-o
-l.121 ...works.com/macrof1/#outline__1_2}{Micro-F1}}
-                                                  
-? 
-! Emergency stop.
-<to be read again> 
-o
-l.121 ...works.com/macrof1/#outline__1_2}{Micro-F1}}
-                                                  
-End of file on the terminal!
+\openout8 = main.nav
+\tf@toc=\write9
 
+\openout9 = main.toc
+\tf@snm=\write10
 
+\openout10 = main.snm
+ (./main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 58676F0C3F60D9AF31C2F88577A1CAFF;190.
+)
 
 Here is how much of LuaTeX's memory you used:
- 39236 strings out of 477356
- 125031,1373583 words of node,token memory allocated 7946 words of node memory still in use:
-   26 hlist, 7 vlist, 5 rule, 1 disc, 3 local_par, 1 dir, 2 math, 34 glue, 6 ker
-n, 11 penalty, 10 glyph, 3066 attribute, 72 glue_spec, 160 attribute_list, 6 wri
-te, 31 user_defined, 28 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 1 pdf_des
-t, 1 pdf_action, 14 pdf_colorstack nodes
-   avail lists: 1:21,2:24793,3:171,4:596,5:120,6:23,7:1872,8:20,9:609,10:30,11:3
+ 39292 strings out of 477356
+ 125031,1373583 words of node,token memory allocated
+ 15478 words of node memory still in use:
+   107 hlist, 16 vlist, 33 rule, 1 disc, 3 local_par, 12 math, 108 glue, 29 kern
+, 20 penalty, 114 glyph, 5452 attribute, 72 glue_spec, 282 attribute_list, 4 wri
+te, 58 user_defined, 16 pdf_colorstack nodes
+   avail lists: 1:21,2:22285,3:193,4:567,5:106,6:24,7:1684,8:45,9:491,10:30,11:3
 8
- 58472 multiletter control sequences out of 65536+600000
- 119 fonts using 75285703 bytes
+ 58517 multiletter control sequences out of 65536+600000
+ 137 fonts using 79685223 bytes
  128i,15n,131p,1895b,1066s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-LightIta
+lic.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman6-re
+gular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman8-
+regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman
+10-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/Fi
+raSans-Regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fir
+a/FiraSans-Light.otf></usr/local/texlive/2022/texmf-dist/fonts/truetype/public/i
+paex/ipaexg.ttf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
+10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb>
+Output written on main.pdf (9 pages, 246813 bytes).
+
+PDF statistics: 187 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 131072)
+ 32 words of extra memory for PDF output out of 10000 (max. 100000000)
+
