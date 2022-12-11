@@ -13,6 +13,7 @@
 \newcommand{\tblcaption}[1]{\def\@captype{table}\caption{#1}}
 \makeatother
 
+\usepackage{adjustbox}
 \usepackage{float}
 \usepackage{wrapfig}  % 図の回り込み
 \usepackage{blindtext}
@@ -24,8 +25,7 @@
 \usepackage{mathtools}
 \usepackage{siunitx}
 \usepackage{tikz}
-\usetikzlibrary {arrows.meta}
-\usetikzlibrary {bending}
+\usetikzlibrary{arrows.meta,bending}
 \usepackage{listings}
 \lstset{
     frame=single,
@@ -36,54 +36,85 @@
 \title{進捗報告}
 \date{\today}
 \author{水野泰旭}
-\institute{弘前大学理工学部電子情報工学科４年}
-\subject{}
+\institute{弘前大学理工学部電子情報工学科4年}
 \begin{document}
   \maketitle
 
-  \begin{frame}{目次}
+  \begin{frame}[plain]{目次}
     \tableofcontents
   \end{frame}
 
-  \begin{frame}
-    \section{F1スコア}
+  \begin{frame}[plain]
+    \section{Macro-F1スコア}
   \end{frame}
 
   \begin{frame}{macro-F1スコアの計算}
     混同行列を用いて計算していく。
     \begin{figure}[H]
       \centering  
-      \includegraphics[keepaspectratio, scale=0.5]{images/deepimfam_confusion_matrix_cnt.pdf}
+      \includegraphics[keepaspectratio,scale=0.5]{images/deepimfam_confusion_matrix_cnt.pdf}
     \end{figure}
   \end{frame}
 
-  \begin{frame}{macro-F1スコアの計算}
-    \begin{figure}[h]
-      \def\@captype{table}
-      \begin{minipage}[t]{.48\textwidth}
-        \tblcaption{ClassA} \label{tb:ClassA}
-        \begin{center}
-          \begin{tabular}{cccc}
+  \begin{frame}{macro-F1スコアのClassAの場合}
+    \begin{minipage}[t]{.48\textwidth}
+      \begin{table}
+        \caption{Class A} \label{tb:ClassA}
+        \begin{adjustbox}{width=\columnwidth, center}
+          \begin{tabular}{ccll}
             \toprule
             \multicolumn{2}{c}{} & \multicolumn{2}{c}{予測値} \\ \cline{3-4}
-            & & 陽性　& 陰性 \\
+            & & 陽性 & 陰性 \\
             \midrule
-            \multirow{2}{*}{正解率} & 陽性 & TP & FN \\
-            & 陰性 & FP & TN \\
+            \multirow{2}{*}{正解率} & 陽性 & TP=559 & FN=9 \\
+            & 陰性 & FP=15 & TN=249 \\
             \bottomrule
           \end{tabular}
-        \end{center}
-      \end{minipage}
-      \hfill
-      \begin{minipage}[c]{.48\textwidth}
+        \end{adjustbox}
+      \end{table}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{.48\textwidth}
+      \begin{figure}
         \centering
-        \includegraphics[keepaspectratio, scale=0.4]{images/deepimfam_confusion_matrix_cnt.pdf}
-        \caption{図の見出し}
-        \label{図へのラベル}
-      \end{minipage}
-    \end{figure}
+        \includegraphics[keepaspectratio,scale=0.3]{images/deepimfam_confusion_matrix_cnt.pdf}
+      \end{figure}
+    \end{minipage}
+    \begin{align*}
+      \mathrm{Accuracy} &= 0.971153846153846 \\
+      \mathrm{Precision} &= 0.9738675958188153 \\
+      \mathrm{Recall} &= 0.984154929577465 \\
+      \mathrm{macro-F1} &= 0.978984238178634
+    \end{align*}
+  \end{frame}
+
+  \begin{frame}
+    \begin{table}[H]
+      \centering
+      \caption{クラスごとのMacro-F1の計算} \label{tb:macro-F1}
+      \begin{tabular}{ccccc}
+        \toprule
+        Class & Accuracy & Precision & Recall & Macro-F1 \\
+        \midrule
+        A & 0.97115 & 0.97386 & 0.98415 & 0.97898 \\
+        B & 0.92405 & 0.74137 & 0.82692 & 0.78181 \\
+        C & 0.97115 & 0.93809 & 0.94711 & 0.94258 \\
+        D & 0.99759 & - & 0.0000 & - \\
+        E & 1.00000 & 1.0000 & 1.0000 &値 1.0000 \\
+        \midrule
+        Average\footnote{平均値を出すためクラスDのPrecisionとMacro-F1の値を最小値である0として計算} & 0.97279 & 0.73066 & 0.75163 & 0.740677 \\        
+        \bottomrule
+      \end{tabular}
+    \end{table}
+  \end{frame}
+
+  \begin{frame}{考察}
+    \begin{itemize}
+      \item sklearnを用いて
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}
+    \section{Micro-F1}
   \end{frame}
 
 \end{document}
-
-

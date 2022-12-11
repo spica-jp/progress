@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.10)  9 DEC 2022 14:41
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.10)  11 DEC 2022 23:39
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1430,19 +1430,64 @@ LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `bold'
 (Font)                  JY3/gt/m/n --> JY3/IPAExGothic(0)/m/n on input line 731
 .
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box99
+)
+\tc@llx=\dimen328
+\tc@lly=\dimen329
+\tc@urx=\dimen330
+\tc@ury=\dimen331
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/tc-pgf.def
+File: tc-pgf.def 2019/01/04 v2.2 trimclip fall-back clipping driver using PGF
+)
+Package trimclip Info: No clipping driver 'tc-luatex.def' available.
+(trimclip)             Using fall-back PGF driver.
+)
+\adjbox@Width=\dimen332
+\adjbox@Height=\dimen333
+\adjbox@Depth=\dimen334
+\adjbox@Totalheight=\dimen335
+\adjbox@pwidth=\dimen336
+\adjbox@pheight=\dimen337
+\adjbox@pdepth=\dimen338
+\adjbox@ptotalheight=\dimen339
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count370
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box100
+\sift@deathcycles=\count371
+\@vwid@loff=\dimen340
+\@vwid@roff=\dimen341
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count370
+\c@float@type=\count372
 \float@exts=\toks59
-\float@box=\box99
+\float@box=\box101
 \@float@everytoks=\toks60
-\@floatcapt=\box100
+\@floatcapt=\box102
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen328
-\WF@size=\dimen329
-\c@WF@wrappedlines=\count371
-\WF@box=\box101
+\wrapoverhang=\dimen342
+\WF@size=\dimen343
+\c@WF@wrappedlines=\count373
+\WF@box=\box103
 \WF@everypar=\toks61
 Package: wrapfig 2003/01/31  v 3.6
 )
@@ -1452,51 +1497,51 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count372
-\c@Blindtext=\count373
-\c@blind@countparstart=\count374
-\blind@countxx=\count375
-\blindtext@numBlindtext=\count376
-\blind@countyy=\count377
-\c@blindlist=\count378
-\c@blindlistlevel=\count379
-\c@blindlist@level=\count380
-\blind@listitem=\count381
-\c@blind@listcount=\count382
-\c@blind@levelcount=\count383
-\blind@mathformula=\count384
-\blind@Mathformula=\count385
-\c@blind@randomcount=\count386
-\c@blind@randommax=\count387
-\c@blind@pangramcount=\count388
-\c@blind@pangrammax=\count389
+\c@blindtext=\count374
+\c@Blindtext=\count375
+\c@blind@countparstart=\count376
+\blind@countxx=\count377
+\blindtext@numBlindtext=\count378
+\blind@countyy=\count379
+\c@blindlist=\count380
+\c@blindlistlevel=\count381
+\c@blindlist@level=\count382
+\blind@listitem=\count383
+\c@blind@listcount=\count384
+\c@blind@levelcount=\count385
+\blind@mathformula=\count386
+\blind@Mathformula=\count387
+\c@blind@randomcount=\count388
+\c@blind@randommax=\count389
+\c@blind@pangramcount=\count390
+\c@blind@pangrammax=\count391
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen330
-\lightrulewidth=\dimen331
-\cmidrulewidth=\dimen332
-\belowrulesep=\dimen333
-\belowbottomsep=\dimen334
-\aboverulesep=\dimen335
-\abovetopsep=\dimen336
-\cmidrulesep=\dimen337
-\cmidrulekern=\dimen338
-\defaultaddspace=\dimen339
-\@cmidla=\count390
-\@cmidlb=\count391
-\@aboverulesep=\dimen340
-\@belowrulesep=\dimen341
-\@thisruleclass=\count392
-\@lastruleclass=\count393
-\@thisrulewidth=\dimen342
+\heavyrulewidth=\dimen344
+\lightrulewidth=\dimen345
+\cmidrulewidth=\dimen346
+\belowrulesep=\dimen347
+\belowbottomsep=\dimen348
+\aboverulesep=\dimen349
+\abovetopsep=\dimen350
+\cmidrulesep=\dimen351
+\cmidrulekern=\dimen352
+\defaultaddspace=\dimen353
+\@cmidla=\count392
+\@cmidlb=\count393
+\@aboverulesep=\dimen354
+\@belowrulesep=\dimen355
+\@thisruleclass=\count394
+\@lastruleclass=\count395
+\@thisrulewidth=\dimen356
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip76
-\multirow@cntb=\count394
+\multirow@cntb=\count396
 \multirow@dima=\skip77
-\bigstrutjot=\dimen343
+\bigstrutjot=\dimen357
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/ascmac/ascmac.sty
 Package: ascmac 2020/01/15 v2.1 ascmac wrapper (community edition) 
@@ -1504,31 +1549,31 @@ Package: ascmac 2020/01/15 v2.1 ascmac wrapper (community edition)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/ascmac/tascmac.sty
 Package: tascmac 2020/01/15 v2.1 ascmac package (community edition) 
 Package tascmac Info: Patch from LuaTeX-ja will be applied on input line 44.
-\@savetbaselineshift=\dimen344
-\@saveybaselineshift=\dimen345
-\scb@x=\box102
-\scscb@x=\box103
-\@bw=\dimen346
-\@nbox=\box104
-\@nbody=\box105
-\@scw=\dimen347
-\ascmac@hoboxa=\box106
-\ascmac@hoboxb=\box107
-\@itemh=\dimen348
+\@savetbaselineshift=\dimen358
+\@saveybaselineshift=\dimen359
+\scb@x=\box104
+\scscb@x=\box105
+\@bw=\dimen360
+\@nbox=\box106
+\@nbody=\box107
+\@scw=\dimen361
+\ascmac@hoboxa=\box108
+\ascmac@hoboxb=\box109
+\@itemh=\dimen362
 \@iboxpos=\toks62
-\@iboxstr=\box108
-\@bwsp=\box109
-\@@bwsp=\box110
-\@bcal=\count395
-\shaderule=\dimen349
+\@iboxstr=\box110
+\@bwsp=\box111
+\@@bwsp=\box112
+\@bcal=\count397
+\shaderule=\dimen363
 ))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fancybox/fancybox.sty
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
-\@fancybox=\box111
-\shadowsize=\dimen350
-\@Sbox=\box112
+\@fancybox=\box113
+\shadowsize=\dimen364
+\@Sbox=\box114
 \do@VerbBox=\toks63
 \the@fancyput=\toks64
 \this@fancyput=\toks65
@@ -1541,68 +1586,68 @@ Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 (/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count396
-\l_MT_multwidth_dim=\dimen351
+\g_MT_multlinerow_int=\count398
+\l_MT_multwidth_dim=\dimen365
 \origjot=\skip78
-\l_MT_shortvdotswithinadjustabove_dim=\dimen352
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen353
-\l_MT_above_intertext_sep=\dimen354
-\l_MT_below_intertext_sep=\dimen355
-\l_MT_above_shortintertext_sep=\dimen356
-\l_MT_below_shortintertext_sep=\dimen357
-\xmathstrut@box=\box113
-\xmathstrut@dim=\dimen358
+\l_MT_shortvdotswithinadjustabove_dim=\dimen366
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen367
+\l_MT_above_intertext_sep=\dimen368
+\l_MT_below_intertext_sep=\dimen369
+\l_MT_above_shortintertext_sep=\dimen370
+\l_MT_below_shortintertext_sep=\dimen371
+\xmathstrut@box=\box115
+\xmathstrut@dim=\dimen372
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2022-09-07 v3.1.7 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen359
-\l__siunitx_angle_marker_box=\box114
-\l__siunitx_angle_unit_box=\box115
-\l__siunitx_compound_count_int=\count397
+\l__siunitx_angle_tmp_dim=\dimen373
+\l__siunitx_angle_marker_box=\box116
+\l__siunitx_angle_unit_box=\box117
+\l__siunitx_compound_count_int=\count399
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_number_exponent_fixed_int=\count398
-\l__siunitx_number_min_decimal_int=\count399
-\l__siunitx_number_min_integer_int=\count400
-\l__siunitx_number_round_precision_int=\count401
-\l__siunitx_number_group_first_int=\count402
-\l__siunitx_number_group_size_int=\count403
-\l__siunitx_number_group_minimum_int=\count404
-\l__siunitx_table_tmp_box=\box116
-\l__siunitx_table_tmp_dim=\dimen360
-\l__siunitx_table_column_width_dim=\dimen361
-\l__siunitx_table_integer_box=\box117
-\l__siunitx_table_decimal_box=\box118
-\l__siunitx_table_before_box=\box119
-\l__siunitx_table_after_box=\box120
-\l__siunitx_table_before_dim=\dimen362
-\l__siunitx_table_carry_dim=\dimen363
-\l__siunitx_unit_tmp_int=\count405
-\l__siunitx_unit_position_int=\count406
-\l__siunitx_unit_total_int=\count407
+\l__siunitx_number_exponent_fixed_int=\count400
+\l__siunitx_number_min_decimal_int=\count401
+\l__siunitx_number_min_integer_int=\count402
+\l__siunitx_number_round_precision_int=\count403
+\l__siunitx_number_group_first_int=\count404
+\l__siunitx_number_group_size_int=\count405
+\l__siunitx_number_group_minimum_int=\count406
+\l__siunitx_table_tmp_box=\box118
+\l__siunitx_table_tmp_dim=\dimen374
+\l__siunitx_table_column_width_dim=\dimen375
+\l__siunitx_table_integer_box=\box119
+\l__siunitx_table_decimal_box=\box120
+\l__siunitx_table_before_box=\box121
+\l__siunitx_table_after_box=\box122
+\l__siunitx_table_before_dim=\dimen376
+\l__siunitx_table_carry_dim=\dimen377
+\l__siunitx_unit_tmp_int=\count407
+\l__siunitx_unit_position_int=\count408
+\l__siunitx_unit_total_int=\count409
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen364
-\ar@mcellbox=\box121
-\extrarowheight=\dimen365
+\col@sep=\dimen378
+\ar@mcellbox=\box123
+\extrarowheight=\dimen379
 \NC@list=\toks67
 \extratabsurround=\skip79
 \backup@length=\skip80
-\ar@cellbox=\box122
+\ar@cellbox=\box124
 ))
 (/usr/local/texlive/2022/texmf-dist/tex/luatex/luatexja/patches/lltjp-siunitx.s
 ty)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen366
-\pgfarrowlength=\dimen367
-\pgfarrowwidth=\dimen368
-\pgfarrowlinewidth=\dimen369
+\pgfarrowinset=\dimen380
+\pgfarrowlength=\dimen381
+\pgfarrowwidth=\dimen382
+\pgfarrowlinewidth=\dimen383
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarybending.code.tex
@@ -1615,38 +1660,38 @@ File: pgfmodulebending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineart
 ransformations.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgftransformnonlinearflatness=\dimen370
+\pgftransformnonlinearflatness=\dimen384
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvili
 near.code.tex
 File: pgflibrarycurvilinear.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@curvilinear@time@a=\dimen371
-\pgf@curvilinear@length@a=\dimen372
-\pgf@curvilinear@length@b=\dimen373
-\pgf@curvilinear@length@c=\dimen374
-\pgf@curvilinear@length@d=\dimen375
+\pgf@curvilinear@time@a=\dimen385
+\pgf@curvilinear@length@a=\dimen386
+\pgf@curvilinear@length@b=\dimen387
+\pgf@curvilinear@length@c=\dimen388
+\pgf@curvilinear@length@d=\dimen389
 )
-\pgf@arrows@the@rigidity=\dimen376
+\pgf@arrows@the@rigidity=\dimen390
 ))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count408
-\lst@gtempboxa=\box123
+\lst@mode=\count410
+\lst@gtempboxa=\box125
 \lst@token=\toks68
-\lst@length=\count409
-\lst@currlwidth=\dimen377
-\lst@column=\count410
-\lst@pos=\count411
-\lst@lostspace=\dimen378
-\lst@width=\dimen379
-\lst@newlines=\count412
-\lst@lineno=\count413
-\lst@maxwidth=\dimen380
+\lst@length=\count411
+\lst@currlwidth=\dimen391
+\lst@column=\count412
+\lst@pos=\count413
+\lst@lostspace=\dimen392
+\lst@width=\dimen393
+\lst@newlines=\count414
+\lst@lineno=\count415
+\lst@maxwidth=\dimen394
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count414
-\lst@skipnumbers=\count415
-\lst@framebox=\box124
+\c@lstnumber=\count416
+\lst@skipnumbers=\count417
+\lst@framebox=\box126
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -1659,9 +1704,9 @@ sty
 Package: luatexbase-cctb 2015/10/04 v1.3 luatexbase interface to LuaTeX (legacy
  subpackage) 
 )
-\ltj@lst@japanese@min=\count416
+\ltj@lst@japanese@min=\count418
 \CatcodeTableLTJlistings=\catcodetable15
-\ltj@lst@frame@lslimit=\dimen381
+\ltj@lst@frame@lslimit=\dimen395
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
@@ -1678,47 +1723,47 @@ warning  (map file): entry for 'ascgrp' already exists, duplicates ignored
 Package: lltjp-array 2019-07-18 Patch to array for LuaTeX-ja
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 41.
+h' as default language. on input line 40.
 LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 41.
+(Font)              scaled to size 9.6222pt on input line 40.
 LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 41.
+(Font)              scaled to size 9.6222pt on input line 40.
  (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
 LaTeX Font Info:    Trying loading font information for TS1+cmr on input line 4
-1.
+0.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 41.
+(Font)              scaled to size 10.53629pt on input line 40.
 LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 41.
+(Font)              scaled to size 10.53629pt on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1756,16 +1801,16 @@ LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count417
-\scratchdimen=\dimen382
-\scratchbox=\box125
-\nofMPsegments=\count418
-\nofMParguments=\count419
+\scratchcounter=\count419
+\scratchdimen=\dimen396
+\scratchbox=\box127
+\nofMPsegments=\count420
+\nofMParguments=\count421
 \everyMPshowfont=\toks70
-\MPscratchCnt=\count420
-\MPscratchDim=\dimen383
-\MPnumerator=\count421
-\makeMPintoPDFobject=\count422
+\MPscratchCnt=\count422
+\MPscratchDim=\dimen397
+\MPnumerator=\count423
+\makeMPintoPDFobject=\count424
 \everyMPtoPDFconversion=\toks71
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1776,66 +1821,66 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 40.
 
 (./main.out) (./main.out)
 \@outlinefile=\write7
 
 \openout7 = main.out
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 41.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 41.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 40.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 41.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/FiraSansLight(0)/b/n on input line 
-41.
+40.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/FiraSansLight(0)/b/n on input line 
-41.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 41.
+40.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/FiraSansLight(0)/m/n on input line 
-41.
+40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/FiraSansLight(0)/m/n on input line
- 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 41.
+ 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/FiraSansLight(0)/m/it on input line
- 41.
+ 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/FiraSansLight(0)/m/it on input lin
-e 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 41.
+e 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 41.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 41.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/b/n on 
-input line 41.
+input line 40.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/b/it o
-n input line 41.
+n input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 41.
+(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/FiraSansLight(0)/b/n --> TU/FiraSansLight(0)/b/n on 
-input line 41.
+input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/b/n on 
-input line 41.
+input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/b/it o
-n input line 41.
+n input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/FiraMono(0)/m/n --> TU/FiraMono(0)/b/n on input line
- 41.
+ 40.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1867,79 +1912,79 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 41.
-\c@lstlisting=\count423
+or `english'. on input line 40.
+\c@lstlisting=\count425
  (./main.nav)
 LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 41.
+(Font)              scaled to size 5.77332pt on input line 40.
 LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 41.
+(Font)              scaled to size 5.77332pt on input line 40.
 LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 41.
+(Font)              scaled to size 7.69775pt on input line 40.
 LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 41.
+(Font)              scaled to size 7.69775pt on input line 40.
 LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 42.
+(Font)              scaled to size 13.85594pt on input line 41.
 LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 42.
+(Font)              scaled to size 13.85594pt on input line 41.
 LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/b/n' will be
-(Font)              scaled to size 13.85594pt on input line 42.
+(Font)              scaled to size 13.85594pt on input line 41.
 LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/b/n' will be
-(Font)              scaled to size 13.85594pt on input line 42.
+(Font)              scaled to size 13.85594pt on input line 41.
 
-Overfull \vbox (15.63992pt too high) detected at line 42
+Overfull \vbox (15.63992pt too high) detected at line 41
  []
 
 [1
 
 ] (./main.toc)
 LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 46.
+(Font)              scaled to size 11.54663pt on input line 45.
 LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 46.
+(Font)              scaled to size 11.54663pt on input line 45.
 LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/b/n' will be
-(Font)              scaled to size 11.54663pt on input line 46.
+(Font)              scaled to size 11.54663pt on input line 45.
 LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/b/n' will be
-(Font)              scaled to size 11.54663pt on input line 46.
-LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 3.84888pt on input line 46.
-LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
-(Font)              scaled to size 3.84888pt on input line 46.
+(Font)              scaled to size 11.54663pt on input line 45.
  [2
 
 ]
-LaTeX Font Info:    Trying loading font information for U+msa on input line 50.
+LaTeX Font Info:    Trying loading font information for U+msa on input line 49.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying loading font information for U+msb on input line 50.
+LaTeX Font Info:    Trying loading font information for U+msb on input line 49.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 50.
+(Font)              scaled to size 7.69775pt on input line 49.
 LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 50.
+(Font)              scaled to size 5.77332pt on input line 49.
  [3
 
 ]
-<images/deepimfam_confusion_matrix_cnt.pdf, id=40, 462.528pt x 346.896pt>
+<images/deepimfam_confusion_matrix_cnt.pdf, id=46, 462.528pt x 346.896pt>
 File: images/deepimfam_confusion_matrix_cnt.pdf Graphic file (type pdf)
 <use images/deepimfam_confusion_matrix_cnt.pdf>
 Package luatex.def Info: images/deepimfam_confusion_matrix_cnt.pdf  used on inp
-ut line 58.
+ut line 57.
 (luatex.def)             Requested size: 231.26343pt x 173.44757pt.
+LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
+(Font)              scaled to size 3.84888pt on input line 57.
+LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
+(Font)              scaled to size 3.84888pt on input line 57.
  [4
 
 <./images/deepimfam_confusion_matrix_cnt.pdf>]
 LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/b/n' will be
-(Font)              scaled to size 9.6222pt on input line 85.
+(Font)              scaled to size 9.6222pt on input line 88.
 LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/b/n' will be
-(Font)              scaled to size 9.6222pt on input line 85.
+(Font)              scaled to size 9.6222pt on input line 88.
 
 Package fontspec Info: Font family 'FiraSansLight(1)' created for font 'Fira
 (fontspec)             Sans Light' with options
@@ -1975,26 +2020,29 @@ tlig;+tnum;"
 (fontspec)             <->"FiraSansItalic:mode=node;script=latn;language=dflt;+
 tlig;+tnum;+smcp;"
 
-
-Overfull \hbox (5.8651pt too wide) in paragraph at lines 85--85
- [][][] 
- []
-
 File: images/deepimfam_confusion_matrix_cnt.pdf Graphic file (type pdf)
 <use images/deepimfam_confusion_matrix_cnt.pdf>
 Package luatex.def Info: images/deepimfam_confusion_matrix_cnt.pdf  used on inp
-ut line 85.
-(luatex.def)             Requested size: 185.0079pt x 138.75594pt.
+ut line 88.
+(luatex.def)             Requested size: 138.75946pt x 104.0696pt.
+(load cache: extra_lmroman8-regular.luc)(load cache: extra_lmroman6-regular.luc)
+ [5
 
-Overfull \hbox (37.51009pt too wide) in paragraph at lines 85--85
- [][] 
- []
+]
+LaTeX Font Info:    Font shape `JT3/IPAExGothic(0)/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 108.
+LaTeX Font Info:    Font shape `JY3/IPAExGothic(0)/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 108.
+(load cache: extra_lmroman9-regular.luc)(load cache: extra_lmroman5-regular.luc)
+LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 108.
+LaTeX Font Info:    Font shape `JY3/IPAExMincho(0)/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 108.
+ [6
 
+] [7
 
-Overfull \vbox (12.74365pt too high) detected at line 85
- []
-
-[5
+] [8
 
 ]
 \tf@nav=\write8
@@ -2008,29 +2056,33 @@ Overfull \vbox (12.74365pt too high) detected at line 85
 \openout10 = main.snm
  (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EA18FCDAF14DBAE72BA184BD04012E4C;77.
+(rerunfilecheck)             Checksum: 58676F0C3F60D9AF31C2F88577A1CAFF;190.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38239 strings out of 477356
+ 39243 strings out of 477356
  125031,1373583 words of node,token memory allocated
- 25263 words of node memory still in use:
-   77 hlist, 17 vlist, 46 rule, 3 disc, 4 local_par, 4 math, 198 glue, 19 kern, 
-41 penalty, 67 glyph, 9936 attribute, 72 glue_spec, 511 attribute_list, 8 write,
- 83 user_defined, 2 pdf_dest, 36 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 
-pdf_restore nodes
-   avail lists: 1:19,2:5662,3:165,4:434,5:68,6:23,7:666,8:9,9:362,10:13,11:6
- 57540 multiletter control sequences out of 65536+600000
- 96 fonts using 66148447 bytes
- 128i,14n,131p,1895b,1066s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.
-otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Ligh
-t.otf></usr/local/texlive/2022/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf
->
-Output written on main.pdf (5 pages, 186170 bytes).
+ 8190 words of node memory still in use:
+   27 hlist, 8 vlist, 5 rule, 1 disc, 3 local_par, 2 math, 36 glue, 6 kern, 11 p
+enalty, 10 glyph, 3163 attribute, 72 glue_spec, 165 attribute_list, 9 write, 32 
+user_defined, 28 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 1 pdf_dest, 1 pd
+f_action, 14 pdf_colorstack nodes
+   avail lists: 1:19,2:24775,3:168,4:595,5:119,6:23,7:1879,8:29,9:607,10:30,11:3
+8
+ 58470 multiletter control sequences out of 65536+600000
+ 119 fonts using 75285703 bytes
+ 128i,15n,131p,1895b,1066s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.o
+tf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Regul
+ar.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-L
+ight.otf></usr/local/texlive/2022/texmf-dist/fonts/truetype/public/ipaex/ipaexg.
+ttf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (8 pages, 219093 bytes).
 
-PDF statistics: 108 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 131072)
- 24 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 149 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 131072)
+ 32 words of extra memory for PDF output out of 10000 (max. 100000000)
 

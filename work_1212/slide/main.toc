@@ -1,1 +1,2 @@
-\beamer@sectionintoc {1}{F1スコア}{3}{0}{1}
+\beamer@sectionintoc {1}{Macro-F1スコア}{3}{0}{1}
+\beamer@sectionintoc {2}{Micro-F1}{8}{0}{2}
