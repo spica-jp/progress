@@ -96,12 +96,12 @@
         Class & Accuracy & Precision & Recall & Macro-F1 \\
         \midrule
         A & 0.97115 & 0.97386 & 0.98415 & 0.97898 \\
-        B & 0.92405 & 0.74137 & 0.82692 & 0.78181 \\
+        B & 0.96052 & 0.93478 & 0.82692 & 0.87755 \\
         C & 0.97115 & 0.93809 & 0.94711 & 0.94258 \\
         D & 0.99759 & - & 0.0000 & - \\
-        E & 1.00000 & 1.0000 & 1.0000 &値 1.0000 \\
+        E & 1.00000 & 1.0000 & 1.0000 & 1.0000 \\
         \midrule
-        Average\footnote{平均値を出すためクラスDのPrecisionとMacro-F1の値を最小値である0として計算} & 0.97279 & 0.73066 & 0.75163 & 0.740677 \\        
+        Average\footnote{平均値を出すためクラスDのPrecisionとMacro-F1の値を最小値である0として計算} & 0.98008 & 0.76934 & 0.75163 & 0.75982 \\
         \bottomrule
       \end{tabular}
     \end{table}
@@ -109,12 +109,21 @@
 
   \begin{frame}{考察}
     \begin{itemize}
-      \item sklearnを用いて
+      \item \href{https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html}{sklearn}を用いてMacro-F1を計算すると0.75982が出力され、計算結果が正しいことがわかった
+      \item 
     \end{itemize}
   \end{frame}
 
   \begin{frame}
     \section{Micro-F1}
+  \end{frame}
+  
+  \begin{frame}{\href{https://ebi-works.com/macrof1/#outline__1_2}{Micro-F1}}
+    \begin{align*}
+      \mathrm{micro-F1} &= \frac{1}{\frac{1}{\mathrm{Precision}_{\mathrm{total}}} + \frac{1}{\mathrm{Recall}_{\mathrm{total}}}} \\
+      \mathrm{Precision}_{\mathrm{total}} &= \frac{\sum TP}{\sum TP + \sum FP} \\
+      \mathrm{Recall}_{\mathrm{total}} &= \frac{\sum TP}{\sum TP + \sum FN}
+    \end{align*}
   \end{frame}
 
 \end{document}
