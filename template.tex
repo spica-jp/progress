@@ -1,49 +1,46 @@
-\documentclass[dvipdfmx]{beamer}
-\usepackage{pxjahyper}
-%\usepackage[uplatex]{test}
+\documentclass[leno,xcolor=dvipsnames]{beamer}
 \usetheme[
-    block=fill, % ブロックに背景をつける
-    progressbar=foot, % 各スライドの下にプログレスバー
-    numbering=fraction % 合計ページ数を表示
+    block=fill,         % ブロックに背景をつける
+    progressbar=foot,   % 各スライドの下にプログレスバー
+    numbering=fraction  % 合計ページ数を表示
 ]{metropolis}           % Use metropolis theme
-%\usetheme{CambridgeUS}
+
+\usepackage{luatexja}% 日本語したい
+\usepackage[ipaex]{luatexja-preset}% IPAexフォントしたい
+\renewcommand{\kanjifamilydefault}{\gtdefault}% 既定をゴシック体に
+\makeatletter
+\newcommand{\figcaption}[1]{\def\@captype{figure}\caption{#1}}
+\newcommand{\tblcaption}[1]{\def\@captype{table}\caption{#1}}
+\makeatother
+
+\usepackage{adjustbox}
 \usepackage{float}
+\usepackage{wrapfig}  % 図の回り込み
+\usepackage{blindtext}
 \usepackage{booktabs}
+\usepackage{multirow}
 \usepackage{ascmac}
 \usepackage{fancybox}
 \usepackage{amsmath}
 \usepackage{mathtools}
-\renewcommand{\kanjifamilydefault}{\gtdefault} % 和文デフォルトをゴシック体に
+\usepackage{siunitx}
 \usepackage{tikz}
-\usetikzlibrary {arrows.meta}
-\usetikzlibrary {bending}
-\usepackage{listings,jvlisting} %日本語のコメントアウトをする場合jvlisting（もしくはjlisting）が必要
-%ここからソースコードの表示に関する設定
+\usetikzlibrary{arrows.meta,bending}
+\usepackage{listings}
 \lstset{
-  basicstyle={\tiny},
-  stringstyle={tiny},
-  frame={tb},
-  breaklines=true,
-  columns=[l]{fullflexible},
-  numbers=left,
-  xrightmargin=0zw,
-  xleftmargin=3zw,
-  numberstyle={\tiny},
-  stepnumber=1,
-  numbersep=1zw,
-  lineskip=-0.5ex
+    frame=single,
+    basicstyle=\tiny\ttfamily,
+    tabsize=4
 }
 
 \title{進捗報告}
 \date{\today}
 \author{水野泰旭}
-\institute{弘前大学理工学部電子情報工学科４年}
-\subject{}
+\institute{弘前大学理工学部電子情報工学科4年}
 \begin{document}
   \maketitle
 
-  \begin{frame}{目次}
+  \begin{frame}[plain]{目次}
     \tableofcontents
-   \end{frame}
-
+  \end{frame}
 \end{document}
