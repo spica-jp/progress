@@ -1,21 +1,21 @@
 \frametitle{ソースコード}    \subsection{ソースコード}
     画像の枚数が少ないクラスに対して、画像を適当な回数コピーしてだいたい同じ枚数にする。
-    \begin{lstlisting}[caption=augmentation.py]
-      # ラベルごとに抽出
-      index = list()
-      for i in range(5): index.append(train_labels == i)
-      each_train_images = dict()
-      each_train_labels = dict()
-      for i in range(5):
-          each_train_images[i] = train_img[index[i]]
-          each_train_labels[i] = train_labels[index[i]]
+    \begin{lstlisting}[caption=augmentation.py, language=Python]
+# ラベルごとに抽出
+index = list()
+for i in range(5): index.append(train_labels == i)
+each_train_images = dict()
+each_train_labels = dict()
+for i in range(5):
+    each_train_images[i] = train_img[index[i]]
+    each_train_labels[i] = train_labels[index[i]]
 
-      max_l = 0
-      for (key, val) in each_train_labels.items(): max_l = max(max_l, len(val))
-      augmentation_train_images = np.empty((0, 150, 150, 1))
-      augmentation_train_labels = np.empty(0)
-      for (key, val) in each_train_images.items():
-          for i in range(max_l // len(val)):
-              aug_train_images = np.append(aug_train_images, val, axis=0)
-              aug_train_labels = np.append(aug_train_labels, each_train_labels[key])
+max_l = 0
+for (key, val) in each_train_labels.items(): max_l = max(max_l, len(val))
+augmentation_train_images = np.empty((0, 150, 150, 1))
+augmentation_train_labels = np.empty(0)
+for (key, val) in each_train_images.items():
+    for i in range(max_l // len(val)):
+        aug_train_images = np.append(aug_train_images, val, axis=0)
+        aug_train_labels = np.append(aug_train_labels, each_train_labels[key])
     \end{lstlisting}

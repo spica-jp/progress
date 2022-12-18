@@ -5,3 +5,4 @@
 \beamer@sectionintoc {2}{データ数を揃えて学習}{6}{0}{2}
 \beamer@subsectionintoc {2}{1}{ソースコード}{6}{0}{2}
 \beamer@subsectionintoc {2}{2}{訓練データ数の推移}{7}{0}{2}
+\beamer@subsectionintoc {2}{3}{学習結果の比較}{8}{0}{2}
