@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{F1スコア}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{前回の問題点}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{検証データ20\%の混同行列}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{Macro-F1スコアの再計算}{5}{0}{1}
+\beamer@sectionintoc {2}{データ数を揃えて学習}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{ソースコード}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{訓練データ数の推移}{7}{0}{2}
