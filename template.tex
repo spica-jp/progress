@@ -1,37 +1,29 @@
-\documentclass[dvipdfmx]{beamer}
-\usepackage{pxjahyper}
-%\usepackage[uplatex]{test}
+\documentclass[leno,xcolor=dvipsnames]{beamer}
 \usetheme[
-    block=fill, % ブロックに背景をつける
-    progressbar=foot, % 各スライドの下にプログレスバー
-    numbering=fraction % 合計ページ数を表示
+    block=fill,         % ブロックに背景をつける
+    progressbar=foot,   % 各スライドの下にプログレスバー
+    numbering=fraction  % 合計ページ数を表示
 ]{metropolis}           % Use metropolis theme
-%\usetheme{CambridgeUS}
+
+\usepackage{luatexja}% 日本語したい
+\usepackage[ipaex]{luatexja-preset}% IPAexフォントしたい
+\renewcommand{\kanjifamilydefault}{\gtdefault}% 既定をゴシック体に
+
 \usepackage{float}
 \usepackage{booktabs}
 \usepackage{ascmac}
 \usepackage{fancybox}
 \usepackage{amsmath}
 \usepackage{mathtools}
-\renewcommand{\kanjifamilydefault}{\gtdefault} % 和文デフォルトをゴシック体に
+\usepackage{siunitx}
 \usepackage{tikz}
 \usetikzlibrary {arrows.meta}
 \usetikzlibrary {bending}
-\usepackage{listings,jvlisting} %日本語のコメントアウトをする場合jvlisting（もしくはjlisting）が必要
-%ここからソースコードの表示に関する設定
+\usepackage{listings}
 \lstset{
-  basicstyle={\tiny},
-  stringstyle={tiny},
-  frame={tb},
-  breaklines=true,
-  columns=[l]{fullflexible},
-  numbers=left,
-  xrightmargin=0zw,
-  xleftmargin=3zw,
-  numberstyle={\tiny},
-  stepnumber=1,
-  numbersep=1zw,
-  lineskip=-0.5ex
+    frame=single,
+    basicstyle=\tiny\ttfamily,
+    tabsize=4
 }
 
 \title{進捗報告}
@@ -44,6 +36,8 @@
 
   \begin{frame}{目次}
     \tableofcontents
-   \end{frame}
+  \end{frame}
 
 \end{document}
+
+

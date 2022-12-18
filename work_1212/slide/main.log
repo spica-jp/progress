@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.10)  12 DEC 2022 01:20
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.10)  12 DEC 2022 13:59
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2065,15 +2065,16 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 39292 strings out of 477356
+ 39296 strings out of 477356
  125031,1373583 words of node,token memory allocated
- 15478 words of node memory still in use:
-   107 hlist, 16 vlist, 33 rule, 1 disc, 3 local_par, 12 math, 108 glue, 29 kern
-, 20 penalty, 114 glyph, 5452 attribute, 72 glue_spec, 282 attribute_list, 4 wri
-te, 58 user_defined, 16 pdf_colorstack nodes
-   avail lists: 1:21,2:22285,3:193,4:567,5:106,6:24,7:1684,8:45,9:491,10:30,11:3
+ 15707 words of node memory still in use:
+   109 hlist, 16 vlist, 33 rule, 1 disc, 3 local_par, 12 math, 106 glue, 29 kern
+, 20 penalty, 114 glyph, 5549 attribute, 72 glue_spec, 287 attribute_list, 4 wri
+te, 59 user_defined, 1 pdf_start_link, 1 pdf_end_link, 1 pdf_action, 16 pdf_colo
+rstack nodes
+   avail lists: 1:21,2:22183,3:192,4:566,5:106,6:23,7:1686,8:44,9:489,10:30,11:3
 8
- 58517 multiletter control sequences out of 65536+600000
+ 58521 multiletter control sequences out of 65536+600000
  137 fonts using 79685223 bytes
  128i,15n,131p,1895b,1066s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-LightIta
@@ -2089,10 +2090,10 @@ cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
 mmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
 10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb>
-Output written on main.pdf (9 pages, 246813 bytes).
+Output written on main.pdf (9 pages, 246846 bytes).
 
-PDF statistics: 187 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+PDF statistics: 189 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
  23 named destinations out of 1000 (max. 131072)
  32 words of extra memory for PDF output out of 10000 (max. 100000000)
 
