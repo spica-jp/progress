@@ -1,0 +1,14 @@
+\frametitle{ランダムを用いたオーバサンプリング}
+一番多いクラスの画像枚数は$4,824$枚で、すべてのクラスの画像枚数が$4,824$になるようランダムに画像をコピー。訓練データは24,120枚となった。    もとの訓練データは$7,106$枚
+    \begin{lstlisting}[caption=\href{https://github.com/yasuak1/DeepImFam/blob/master/source/train_img/prc/train_deepimfam_augmentation.py}{rand\_augmentation.py}]
+max_length = 0
+for (key, val) in each_train_labels.items(): max_length = max(max_length, len(val))
+augmentation_train_images = np.empty((0, 150, 150, 1))
+augmentation_train_labels = np.empty(0)
+for i in range(5):
+    repeated_perm = list()
+    for j in range(max_length): repeated_perm.append(random.randint(0, len(each_train_labels[i])-1))
+    augmentation_train_images = np.append(augmentation_train_images, each_train_images[i][repeated_perm], axis=0)
+    for _ in range(max_length): augmentation_train_labels = np.append(augmentation_train_labels, i)
+    print(augmentation_train_images.shape)
+    \end{lstlisting}

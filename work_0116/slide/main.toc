@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{オーバサンプリング}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{前回の手法}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{結果}{5}{0}{1}
+\beamer@sectionintoc {2}{冬休み期間中行ったこと}{7}{0}{2}
